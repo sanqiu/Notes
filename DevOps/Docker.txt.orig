@@ -1,0 +1,57 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+<<<<<<< Updated upstream
+Creation-Date: 2014-11-16T09:41:22+08:00
+
+====== Docker ======
+Created Sunday 16 November 2014
+
+-p ## [[ip:hostport:containerport]]
+-P ##publish all port to host
+--net="bridge" ## "none", "bridge", "containerid/name", "host"
+--expose=PORT ##expose port to another container
+=======
+Creation-Date: 2014-11-14T13:00:12+08:00
+
+====== Docker ======
+Created Friday 14 November 2014
+
+info ##images and containers num and storage
+version ##
+attach ## mount a running background container
+build ## build image ffrom source
+cp CONTAINER:PATH HOSTPATH
+diff ## diff when building images
+save/ import / load/  ## save image to tarball and import it  and load it to stdin
+inspect ## get detailed info about image or container
+kill ## kill container's pid
+port ## port mappings CONTAINER private_port/proto
+pause| unpause  container
+ps ## list containers
+rm| rmi 
+
+run [OPTIONS] image COMMAND
+OPTIONS: 
+	-a attach to stdin,stdout.stderr
+	--add-host=host:ip
+	-d detached mode in background and new cont id
+	--dns=
+	--hostname=
+	-i
+	-m limit memory
+	--name= to this container
+	--tty  a pseudo tty
+	--user=, -u
+	
+start/ stop / restart
+tag
+top ## runnint process in container
+docker events ##real time events  from docker server
+docker logs ## the ps running logs
+docker history image
+login/ pull / push
+search
+exec ## run command in a existing container.
+
+>>>>>>> Stashed changes
+

@@ -1,0 +1,756 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0044)http://www.admin10000.com/document/1631.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Language" content="zh-CN"><meta name="Keywords" content="git"><meta name="Description" content="图解git最常用命令"><meta name="Author" content="Admin10000.com"><meta name="Copyright" content="Admin10000.com"><title>
+	图解git最常用命令 - WEB开发者
+</title><link type="text/css" rel="stylesheet" href="./git-writeup_files/Site.css"><link href="http://www.admin10000.com/Skin/favicon.ico" rel="Shortcut Icon">
+    <script type="text/javascript" src="./git-writeup_files/jquery.js"></script>
+    <script type="text/javascript" src="./git-writeup_files/common.js"></script>
+    <script type="text/javascript" src="./git-writeup_files/site.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+
+            memberAuthenticate();
+        })
+    </script>
+    <!--<base target="_blank">--><base href="." target="_blank">
+    
+    <link type="text/css" rel="stylesheet" href="./git-writeup_files/shCore.css">
+    <link type="text/css" rel="stylesheet" href="./git-writeup_files/shThemeDefault.css">
+    <script type="text/javascript" src="./git-writeup_files/shCore.js"></script>
+    <script type="text/javascript" src="./git-writeup_files/shAutoloader.js"></script>
+    <script type="text/javascript">
+        function path() {
+            var args = arguments,
+            result = [];
+            for (var i = 0; i < args.length; i++)
+                result.push(args[i].replace('@', '/Common/SyntaxHighlighter/scripts/'));
+            return result
+        };
+
+        $(document).ready(function () {
+            SyntaxHighlighter.autoloader.apply(null, path(
+                'applescript            @shBrushAppleScript.js',
+                'actionscript3 as3      @shBrushAS3.js',
+                'bash shell             @shBrushBash.js',
+                'coldfusion cf          @shBrushColdFusion.js',
+                'cpp c                  @shBrushCpp.js',
+                'c# c-sharp csharp      @shBrushCSharp.js',
+                'css                    @shBrushCss.js',
+                'delphi pascal          @shBrushDelphi.js',
+                'diff patch pas         @shBrushDiff.js',
+                'erl erlang             @shBrushErlang.js',
+                'groovy                 @shBrushGroovy.js',
+                'java                   @shBrushJava.js',
+                'jfx javafx             @shBrushJavaFX.js',
+                'js jscript javascript  @shBrushJScript.js',
+                'perl pl                @shBrushPerl.js',
+                'php                    @shBrushPhp.js',
+                'text plain             @shBrushPlain.js',
+                'py python              @shBrushPython.js',
+                'ruby rails ror rb      @shBrushRuby.js',
+                'sass scss              @shBrushSass.js',
+                'scala                  @shBrushScala.js',
+                'sql                    @shBrushSql.js',
+                'vb vbnet               @shBrushVb.js',
+                'xml xhtml xslt html    @shBrushXml.js'
+            ));
+            SyntaxHighlighter.defaults['smart-tabs'] = true;
+            SyntaxHighlighter.defaults['tab-size'] = 4;
+            SyntaxHighlighter.all();
+        });
+    </script>
+    <script type="text/javascript">        
+               
+        $(function() {
+
+            $("div.body img").each(function() {
+                if ($(this).width() > 660) $(this).width(660);
+            })
+
+
+            $("input.c_submitButton").click(function(event) {
+
+                var contentId = $("input.c_contentId").val();
+                var model = $("input.c_model").val();
+                var body = $("textarea.c_body").val();
+
+                if ($.trim(body) == '') {
+                    alert("请填写评论内容");
+                }
+                else {
+                    $.post('/Common/AddComment.ashx', { "ContentId": contentId, "Model": model, "Body": body }, function(data, status) {
+
+                        if (data == "1") {
+                            alert("评论成功提交");
+                            $(".c_body").val("");
+                        }
+                        else if (data == "2") {
+                            alert("评论成功提交，请等待审核");
+                            $(".c_body").val("");
+                        }
+                        else if (data == "-3") {
+                            alert("评论内容过长");
+                        }
+                        else if (data == "-2") {
+                            alert("评论功能暂时关闭");
+                        }
+                        else if (data == "-1") {
+                            alert("请先登录，再发表评论");
+                        }
+                        else {
+                            alert("评论提交失败");
+                        }
+                        getCommentList(1631,"Document",1);
+                    });
+                }
+                event.preventDefault();
+            })
+
+
+            $("textarea.c_body").keypress(function(event) {
+
+                if (event.ctrlKey && event.which == 13 || event.which == 10) {
+                    $("input.c_submitButton").click();
+                    event.preventDefault();
+                }
+            })
+
+            $("textarea.c_body").keyup(function(event) {
+                var commentBodyLength = $("input#txtCommentBodyLength").val();
+                var words = $(this).val().length;
+                var n = commentBodyLength - words;
+                if (n >= 0) {
+
+                    $("span#commentBodyCount").html("最多" + commentBodyLength + "字，还可以输入" + n + "个字符");
+                }
+                else {
+                    $("span#commentBodyCount").html("最多" + commentBodyLength + "字，<span style=\"color:#f00\">已超出指定长度" + Math.abs(n) + "个字符</span>");
+                }
+            })
+
+
+            getCommentList(1631,"Document",1);
+
+
+        })
+        
+        
+    </script>
+</head>
+<body>
+    <form method="post" action="http://www.admin10000.com/document/1631.html?DocumentId=1631" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTc2MDE2MDI0MWRkmDp9BvjIKm7GDCg3AdR4iH8qmuRjYKOpzJVOnv8Mvgw=">
+</div>
+
+    <div id="miniNav">
+        <div class="mini">
+            <div class="l">
+                <img src="./git-writeup_files/ico_login.gif" alt=""><span class="memberAuthenticate"><a href="http://www.admin10000.com/Member/Index.aspx" target="_blank">登录会员中心</a></span>
+            </div>
+            <div class="m1">
+                <iframe width="130" height="24" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" scrolling="no" border="0" src="./git-writeup_files/saved_resource.html" style="display: none !important;">
+                </iframe>
+            </div>
+            <div class="m2">
+                <iframe width="160" height="24" src="./git-writeup_files/index.html" frameborder="0" marginwidth="0" marginheight="0" scrolling="auto" allowtransparency="true">
+                </iframe>
+            </div>
+
+	    <div class="m3">
+
+                <iframe src="./git-writeup_files/like.html" allowtransparency="true" scrolling="no" border="0" frameborder="0" style="width:200px;height:24px;border:none;overflow:hidden;"></iframe>
+
+	    </div>
+            <div class="r">
+
+                  <img src="./git-writeup_files/ico_search.gif" alt=""><a target="_blank" href="http://so.admin10000.com/">搜索本站</a>
+                
+                <img src="./git-writeup_files/ico_favorite.gif" alt=""><a target="_self" href="javascript:addFavorite('Web开发者','http://www.admin10000.com')">收藏本站</a>
+                
+            </div>
+        </div>
+    </div>
+    <div id="header">
+        <div class="logo">
+            <a href="http://www.admin10000.com/"></a>
+        </div>
+        <div class="banner">
+            <div class="ad_728x90">
+<script type="text/javascript">
+    /*admin10000 嵌入 728*90 创建于 2015-01-24*/
+    var cpro_id = "u1921222";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+
+
+
+            </div>
+        </div>
+    </div>
+    <div id="nav">
+        <ul>
+            <li><a target="_self" href="http://www.admin10000.com/">首页</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/html-css/">HTML/CSS</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/javascript/">JavaScript</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/aspnet/">ASP.NET</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/javaweb/">Java WEB</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/php/">PHP</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/python/">Python</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/rubyonrails/">RubyOnRails</a></li>
+	    <li><a target="_self" href="http://www.admin10000.com/nodejs/">NodeJS</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/flash/">Flash</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/c/">C/C++</a></li>
+            <li class="end"><a target="_self" href="http://www.admin10000.com/language/">编程语言</a></li>
+        </ul>
+        <ul>
+            
+            <li><a target="_self" href="http://www.admin10000.com/database/">数据库</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/server/">服务器</a></li>
+	    <li><a target="_self" href="http://www.admin10000.com/windows/">Windows</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/linux/">Linux</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/cloud/">云计算/大数据</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/mobile/">移动开发</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/frontend/">前端</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/backend/">后端</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/algorithm/">算法</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/pattern/">设计模式</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/browser/">浏览器</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/safe/">安全</a></li>
+            <li class="end"><a target="_self" href="http://www.admin10000.com/engineering/">软件工程</a></li>
+            
+        </ul>
+        <ul>
+	    <li><a target="_self" href="http://www.admin10000.com/document/1631.html#">在线教程</a></li>
+	    <li><a target="_self" href="http://www.admin10000.com/manual/">开发手册</a></li>
+	    <li><a target="_self" href="http://www.admin10000.com/webdev/">WEB综合</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/ui/">UI/UE</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/seo/">SEO</a></li>            
+	    <li><a target="_self" href="http://www.admin10000.com/idc/">IDC</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/operation/">运营推广</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/news/">业界资讯</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/comment/">观点评论</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/other/">其它</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/job/">职场</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/chuangye/">创业</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/programmer/">程序人生</a></li>
+            <li><a target="_self" href="http://www.admin10000.com/joke/">幽默</a></li>
+            <li class="end"><a target="_self" href="http://www.admin10000.com/duanzi/">段子</a></li>
+
+        </ul>
+    </div>
+    <div id="search">
+        <div class="box">
+
+	<!--
+            <input class="searchKeyword" type="text" value="" /><input class="searchButton" type="button"
+                value="" />
+            <input class="tagButton" type="button" onclick="javascript:window.open('/tag/','_self')" />
+            <span class="tagList">
+                
+            </span>
+	    -->
+        </div>
+    </div>
+    
+    <div id="position">
+        <a target="_self" href="http://www.admin10000.com/">首页</a><span>»</span><a target="_self" href="http://www.admin10000.com/engineering/">软件工程</a><span>»</span><span>图解git最常用命令</span>
+    </div>
+    <div id="documentPage">
+        <div id="main">
+            <div class="left">
+                <h1 class="heading">
+                    图解git最常用命令
+                </h1>
+                <div class="docInfo">
+                     <span class="source">来源：<a href="http://marklodato.github.com/visual-git-guide/index-zh-cn.html" target="_blank" rel="nofollow">github</a></span> <span class="addTime">发布时间：2013-03-22</span> <span class="clickTotal">阅读次数：<span id="spanClickTotal">1411</span><script type="text/javascript">updateClickTotal(1631,"Document",1);</script></span>
+                </div>
+                <div class="share">
+                    <div class="l">
+                    <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_32x32">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_renren"></a>
+	<a class="jiathis_button_douban"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_51"></a>
+	<a class="jiathis_button_tieba"></a>
+	<a class="jiathis_button_baidu"></a>
+	<a class="jiathis_button_qq"></a>
+	<a class="jiathis_button_tianya"></a>
+	<a href="http://www.jiathis.com/share?uid=1541970" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript">
+var jiathis_config = {data_track_clickback:'true'};
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1541970" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+                    </div>
+                    <div class="r">
+                        <img src="./git-writeup_files/print.gif" onclick="javascript:print(1631)" alt="">
+                    </div>
+                </div>
+
+
+				 <div class="ad_336x280" style="float: left; margin-left: 14px;">
+                    <script type="text/javascript"><!--
+                        google_ad_client = "ca-pub-5399889949293541";
+                        /* 文章页矩形广告_336x280 */
+                        google_ad_slot = "8701142361";
+                        google_ad_width = 336;
+                        google_ad_height = 280;
+//-->
+                    </script>
+                    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                    </script>
+                </div>
+                <div class="ad_336x280" style="float: left;">
+                    <script type="text/javascript"><!--
+                        google_ad_client = "ca-pub-5399889949293541";
+                        /* 文章页矩形广告_336x280 */
+                        google_ad_slot = "8701142361";
+                        google_ad_width = 336;
+                        google_ad_height = 280;
+//-->
+                    </script>
+                    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                    </script>
+                </div>
+                <div style="clear: both">
+                </div>
+
+                <div class="body textStyle">
+                    <p>
+	　　此页图解 git 中的最常用命令。如果你稍微理解 git 的工作原理，这篇文章能够让你理解的更透彻。</p>
+<p>
+	　　<strong>基本用法</strong></p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920768364.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　上面的四条命令在工作目录、暂存目录(也叫做索引)和仓库之间复制文件。</p>
+<ul>
+	<li>
+		git add&nbsp;files&nbsp;把当前文件放入暂存区域。</li>
+	<li>
+		git commit&nbsp;给暂存区域生成快照并提交。</li>
+	<li>
+		git reset --&nbsp;files&nbsp;用来撤销最后一次git add&nbsp;files，你也可以用git reset&nbsp;撤销所有暂存区域文件。</li>
+	<li>
+		git checkout --&nbsp;files&nbsp;把文件从暂存区域复制到工作目录，用来丢弃本地修改。</li>
+</ul>
+<p>
+	　　你可以用&nbsp;git reset -p,&nbsp;git checkout -p, or&nbsp;git add -p进入交互模式。</p>
+<p>
+	　　也可以跳过暂存区域直接从仓库取出文件或者直接提交代码。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920668977.JPG" title="图解 Git" style="width: 660px;"></p>
+<ul>
+	<li>
+		git commit -a&nbsp;相当于运行&nbsp;git add&nbsp;把所有当前目录下的文件加入暂存区域再运行。git commit.</li>
+	<li>
+		git commit&nbsp;files&nbsp;进行一次包含最后一次提交加上工作目录中文件快照的提交。并且文件被添加到暂存区域。</li>
+	<li>
+		git checkout HEAD --&nbsp;files&nbsp;回滚到复制最后一次提交。</li>
+</ul>
+<p>
+	　　<strong>约定</strong></p>
+<p>
+	　　后文中以下面的形式使用图片。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920249845.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　绿色的 5 位字符表示提交的 ID，分别指向父节点。分支用橘色显示，分别指向特定的提交。当前分支由附在其上的HEAD标识。 这张图片里显示最后 5 次提交，ed489是最新提交。&nbsp;master分支指向此次提交，另一个maint分支指向祖父提交节点。</p>
+<p>
+	　　<strong>命令详解</strong></p>
+<p>
+	　　<strong>Diff</strong></p>
+<p>
+	　　有许多种方法查看两次提交之间的变动。下面是一些示例。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920827742.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　<strong>Commit</strong></p>
+<p>
+	　　提交时，git 用暂存区域的文件创建一个新的提交，并把此时的节点设为父节点。然后把当前分支指向新的提交节点。下图中，当前分支是master。 在运行命令之前，master指向ed489，提交后，master指向新的节点f0cec并以ed489作为父节点。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920896922.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　即便当前分支是某次提交的祖父节点，git 会同样操作。下图中，在master分支的祖父节点maint分支进行一次提交，生成了1800b。 这样，maint分支就不再是master分支的祖父节点。此时，<a href="http://marklodato.github.com/visual-git-guide/index-zh-cn.html#merge" rel="nofollow" target="_blank">合并</a>&nbsp;(或者&nbsp;<a href="http://marklodato.github.com/visual-git-guide/index-zh-cn.html#rebase" rel="nofollow" target="_blank">衍合</a>) 是必须的。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920223511.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　如果想更改一次提交，使用&nbsp;git commit --amend。git 会使用与当前提交相同的父节点进行一次新提交，旧的提交会被取消。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920523881.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　另一个例子是，后文讲。</p>
+<p>
+	　　<strong>Checkout</strong></p>
+<p>
+	　　checkout 命令通常用来从仓库中取出文件，或者在分支中切换。</p>
+<p>
+	　　checkout 命令让 git 把文件复制到工作目录和暂存区域。比如git checkout HEAD~ foo.c把文件从foo.c提交节点HEAD~&nbsp;(当前提交节点)复制到工作目录并且生成索引。注意当前分支没有变化。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920914893.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　如果没有指定文件名，而是一个本地分支，那么将切换到那个分支去。同时把索引和工作目录切换到那个分支对应的状态。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920441957.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　如果既没有指定文件名，也没有指定分支名，而是一个标签、远程分支、SHA-1值或者是像master~3类似的东西，就得到一个匿名分支，称作detached HEAD。 这样可以很方便的在历史版本之间互相切换。但是，这样的提交是完全不同的，详细的在下面。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920893956.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　<strong>用分离 HEAD 提交(找不到好的译法)</strong></p>
+<p>
+	　　HEAD是分离的时候， 提交可以正常进行， 但是没有更新已命名的分支. 。(可以看作是匿名分支。)</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920986301.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　如果此时切换到别的分支，那么所作的工作会全部丢失。注意这个命令之后就不存在2eecb了。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920490427.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　如果你想保存当前的状态，可以用这个命令创建一个新的分支:&nbsp;git checkout -b&nbsp;name。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920504196.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　<strong>Reset</strong></p>
+<p>
+	　　reset 命令把当前分支指向另一个位置，并且有选择的变动工作目录和索引。也用来在从历史仓库中复制文件到索引，而不动工作目录。</p>
+<p>
+	　　如果不给选项，那么当前分支指向到那个提交。如果用--hard选项，那么工作目录也更新，如果用--soft选项，那么都不变。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920809138.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　如果没有给出提交点的版本号，那么默认用HEAD。这样，分支指向不变，但是索引会回滚到最后一次提交，如果用--hard选项，工作目录也同样。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920395210.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　如果给了文件名(或者&nbsp;-p选项)， 那么工作效果和带文件名的 checkout 差不多，除了索引被更新。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920961946.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　<strong>Merge</strong></p>
+<p>
+	　　merge 命令把不同分支合并起来。合并前，索引必须和当前提交相同。如果另一个分支是当前提交的祖父节点，那么合并命令将什么也不做。 另一中情况是如果当前提交是另一个分支的祖父节点，就导致 fast-forward 合并。指向只是简单的移动，并生成一个新的提交。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920581383.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　否则就是一次真正的合并。默认把当前提交(ed489&nbsp;如下所示)和另一个提交(33104)以及他们的共同祖父节点(b325c)进行一次<a href="http://en.wikipedia.org/wiki/Three-way_merge" rel="nofollow" target="_blank">三方合并</a>。结果是先保存当前目录和索引，然后和父节点33104一起做一次新提交。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920243132.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　<strong>Cherry Pick</strong></p>
+<p>
+	　　cherry-pick 命令”复制”一个提交节点并在当前复制做一次完全一样的新提交。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920334328.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　<strong>Rebase</strong></p>
+<p>
+	　　衍合是合并命令的另一种选择。合并把两个父分支合并进行一次提交，提交历史不是线性的。衍合在当前分支上重演另一个分支的历史，提交历史是线性的。 本质上，这是线性化的自动的&nbsp;cherry-pick</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920224375.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　上面的命令都在topic分支中进行，而不是master分支，在master分支上重演，并且把分支指向新的节点。注意旧提交没有被引用，将被回收。</p>
+<p>
+	　　要限制回滚范围，使用--onto选项。下面的命令在master分支上重演当前分支从169a6以来的最近几个提交，即2c33a。</p>
+<p style="text-align: center">
+	<img alt="图解 Git" src="./git-writeup_files/20130322074920128096.JPG" title="图解 Git" style="width: 660px;"></p>
+<p>
+	　　同样有git rebase --interactive让你更方便的完成一些复杂操组，比如丢弃、重排、修改、合并提交。没有图片体现着下，细节看这里:<a href="http://www.kernel.org/pub/software/scm/git/docs/git-rebase.html#_interactive_mode" rel="nofollow" target="_blank">git-rebase (1)</a></p>
+<p>
+	　　<strong>技术说明</strong></p>
+<p>
+	　　文件内容并没有真正存储在索引(.git/index)或者提交对象中，而是以 blob 的形式分别存储在数据库中(.git/objects)，并用 SHA-1值来校验。 索引文件用识别码列出相关的 blob 文件以及别的数据。对于提交来说，以树(tree)的形式存储，同样用对于的哈希值识别。树对应着工作目录中的文件夹，树中包含的树或者 blob 对象对应着相应的子目录和文件。每次提交都存储下它的上一级树的识别码。</p>
+<p>
+	　　如果用 detached HEAD 提交，那么最后一次提交会被 the reflog for HEAD 引用。但是过一段时间就失效，最终被回收，与git commit --amend或者git rebase很像。</p>
+
+                </div>
+                
+
+                <div class="tip">
+                   QQ群： <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=11cb3a650672742a8df0d85777aba8f23771cb84fd699a99fc6aa98240296c9e">WEB开发者官方总群(160830781)</a> 验证消息：Admin10000
+                </div>
+
+				<div class="ad_580x90_sogou">
+				<script type="text/javascript">
+					var sogou_ad_id=136454;
+					var sogou_ad_height=90;
+					var sogou_ad_width=580;
+				</script>
+				<script language="JavaScript" type="text/javascript" src="http://images.sohu.com/cs/jsfile/js/c.js"></script>
+				</div>
+
+
+                <div class="weixin">
+                   
+                </div>
+               
+               <div class="tip">提示：常上QQ空间的朋友可关注<a href="http://user.qzone.qq.com/849023636">【WEB开发者】腾讯认证空间</a>，精彩内容不错过。</div>
+
+               
+                <div class="tags">
+                    <img src="./git-writeup_files/tag.gif" alt=""><a href="http://www.admin10000.com/tag/git/">git</a>
+                </div>
+               
+                <div class="relation">
+                    <div class="title">
+                        相关文档</div>
+                    <div class="content">
+                        
+                                <ul>
+                            
+                                <li>
+                                    <a href="http://www.admin10000.com/document/6252.html" title="25个 Git 进阶技巧">25个 Git 进阶技巧</a></li>
+                            
+                                <li>
+                                    <a href="http://www.admin10000.com/document/6177.html" title="8 个 git 的小技巧">8 个 git 的小技巧</a></li>
+                            
+                                <li>
+                                    <a href="http://www.admin10000.com/document/6162.html" title="Git 10 周年之际，创始人 Linus Torvalds 访谈">Git 10 周年之际，创始人 Linus Torv</a></li>
+                            
+                                <li>
+                                    <a href="http://www.admin10000.com/document/5908.html" title="Git五分钟教程">Git五分钟教程</a></li>
+                            
+                                <li>
+                                    <a href="http://www.admin10000.com/document/5443.html" title="已经会用Git了？不会这十招怎么行">已经会用Git了？不会这十招怎么行</a></li>
+                            
+                                <li>
+                                    <a href="http://www.admin10000.com/document/5374.html" title="Git使用详细教程">Git使用详细教程</a></li>
+                            
+                                <li>
+                                    <a href="http://www.admin10000.com/document/5052.html" title="Git 2.1发布：新特性预览">Git 2.1发布：新特性预览</a></li>
+                            </ul><ul>
+                                <li>
+                                    <a href="http://www.admin10000.com/document/4967.html" title="10 个迅速提升你 Git 水平的提示">10 个迅速提升你 Git 水平的提示</a></li>
+                            
+                                <li>
+                                    <a href="http://www.admin10000.com/document/4554.html" title="Git远程操作详解">Git远程操作详解</a></li>
+                            
+                                <li>
+                                    <a href="http://www.admin10000.com/document/4457.html" title="关于 Git 你所不知道的一些事">关于 Git 你所不知道的一些事</a></li>
+                            
+                                <li>
+                                    <a href="http://www.admin10000.com/document/3781.html" title="软件版本控制介绍">软件版本控制介绍</a></li>
+                            
+                                <li>
+                                    <a href="http://www.admin10000.com/document/3531.html" title="15分钟学会使用Git和远程代码库">15分钟学会使用Git和远程代码库</a></li>
+                            
+                                <li>
+                                    <a href="http://www.admin10000.com/document/3510.html" title="SVN有任何胜过git的地方吗？">SVN有任何胜过git的地方吗？</a></li>
+                            
+                                <li>
+                                    <a href="http://www.admin10000.com/document/3198.html" title="写给Git初学者的7个建议">写给Git初学者的7个建议</a></li>
+                            
+                                </ul>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 6px;">
+                </div>
+                <div class="ad_336x280" style="float: left; margin-left: 14px;">
+                  <script type="text/javascript">
+    /*336*280 创建于 2015-01-03*/
+    var cpro_id = "u1889436";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+                </div>
+                <div class="ad_336x280" style="float: left;">
+                      <script type="text/javascript">
+    /*336*280 创建于 2015-01-03*/
+    var cpro_id = "u1889436";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+                </div>
+                <div style="clear: both">
+                </div>
+                <div style="text-align: center; margin-top: 6px;">
+                </div>
+                <div class="commentBox">
+                    <div class="head">
+                        网友评论（共1条评论） <span class="commLoading" style="display: none;">
+                            正在载入评论......</span>
+                    </div>
+                    <div class="list"><ul><li><div class="l"><img src="./git-writeup_files/no_avatar.jpg" alt=""></div><div class="r"><div class="commInfo">suyuwen1 - 2014-08-22 22:58</div><div class="commBody">和大家分享一篇不错的文章<br>Git版本控制软件结合GitHub从入门到精通常用命令学习手册<br>http://www.ihref.com/read-16369.html</div></div></li></ul></div>
+                    <div class="pageBar">
+                        <div class="pageBox"><span class="disabled" title="上一页">«</span><span class="current">1</span><span class="disabled" title="下一页">»</span></div>
+                    </div>
+                    <div class="form">
+                        <div class="title">
+                            <span>理智评论文明上网，拒绝恶意谩骂</span> 发表评论 / 共1条评论
+                        </div>
+                        <div class="content">
+                            <input class="c_contentId" type="hidden" value="1631">
+                            <input class="c_model" type="hidden" value="Document">
+                            <textarea class="c_body" cols="0" rows="0"></textarea></div>
+                        <div class="submit">
+                            <input id="txtCommentBodyLength" type="hidden" value="500">
+                            <input class="c_submitButton" type="button" value="发表评论"><span id="commentBodyCount"></span><span class="memberAuthenticate"><a href="http://www.admin10000.com/Member/Index.aspx" target="_blank">登录会员中心</a></span></div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 6px;">
+                </div>
+                <div class="ad_640x90">
+                    
+                </div>
+                <div style="text-align: center; margin-top: 6px;">
+                </div>
+            </div>
+            <div class="right">
+
+<div class="ad_250x250">		
+ <script async="" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 文章页边栏广告_250x250 -->
+<ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-5399889949293541" data-ad-slot="3493366002"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+                <div class="hotBox">
+                    <div class="title">
+                        阅读排行</div>
+                    <div class="content">
+                        <ul><li class="order_1"><a href="http://www.admin10000.com/document/5374.html" title="Git使用详细教程">Git使用详细教程</a></li><li class="order_2"><a href="http://www.admin10000.com/document/4760.html" title="专为设计师而写的GitHub快速入门教程">专为设计师而写的GitHub快速入门教程</a></li><li class="order_3"><a href="http://www.admin10000.com/document/4808.html" title="八卦Google 的前端开发方式及流程">八卦Google 的前端开发方式及流程</a></li><li class="order_4"><a href="http://www.admin10000.com/document/5443.html" title="已经会用Git了？不会这十招怎么行">已经会用Git了？不会这十招怎么行</a></li><li class="order_5"><a href="http://www.admin10000.com/document/5908.html" title="Git五分钟教程">Git五分钟教程</a></li><li class="order_6"><a href="http://www.admin10000.com/document/4554.html" title="Git远程操作详解">Git远程操作详解</a></li><li class="order_7"><a href="http://www.admin10000.com/document/4967.html" title="10 个迅速提升你 Git 水平的提示">10 个迅速提升你 Git 水平的提示</a></li><li class="order_8"><a href="http://www.admin10000.com/document/4457.html" title="关于 Git 你所不知道的一些事">关于 Git 你所不知道的一些事</a></li><li class="order_9"><a href="http://www.admin10000.com/document/5266.html" title="修复bug的12个关键步骤">修复bug的12个关键步骤</a></li><li class="order_10"><a href="http://www.admin10000.com/document/4698.html" title="程序员需谨记的8条团队开发原则">程序员需谨记的8条团队开发原则</a></li></ul>
+                    </div>
+                </div>	
+
+                <div class="hotBox">
+                    <div class="title">
+                        推荐文档</div>
+                    <div class="content">
+                        <ul><li><a href="http://www.admin10000.com/document/2427.html" title="Web项目管理工具精选">Web项目管理工具精选</a></li><li><a href="http://www.admin10000.com/document/2130.html" title="16种折磨开发者的方式">16种折磨开发者的方式</a></li><li><a href="http://www.admin10000.com/document/1617.html" title="Facebook元老王淮眼中的软件开发原则">Facebook元老王淮眼中的软件开发原则</a></li><li><a href="http://www.admin10000.com/document/1606.html" title="源代码管理的六大视觉模式">源代码管理的六大视觉模式</a></li><li><a href="http://www.admin10000.com/document/1380.html" title="敏捷开发的实战经验">敏捷开发的实战经验</a></li><li><a href="http://www.admin10000.com/document/1316.html" title="源代码管理的十条戒律">源代码管理的十条戒律</a></li><li><a href="http://www.admin10000.com/document/1253.html" title="GIT和SVN之间的五个基本区别">GIT和SVN之间的五个基本区别</a></li><li><a href="http://www.admin10000.com/document/1233.html" title="敏捷开发的26条至理名言">敏捷开发的26条至理名言</a></li><li><a href="http://www.admin10000.com/document/1149.html" title="如何避免重构带来的危险">如何避免重构带来的危险</a></li><li><a href="http://www.admin10000.com/document/778.html" title="“用户需求”这个概念是有害的">“用户需求”这个概念是有害的</a></li></ul>
+                    </div>
+                </div>
+                <div class="hotBox">
+                    <div class="title">
+                        随机文档</div>
+                    <div class="content">
+                        <ul><li><a href="http://www.admin10000.com/document/6199.html" title="什么是对象，为什么要面向对象，怎么才能面向对象？">什么是对象，为什么要面向对象，怎么才能面向对象？</a></li><li><a href="http://www.admin10000.com/document/1397.html" title="软件编程21法则">软件编程21法则</a></li><li><a href="http://www.admin10000.com/document/3159.html" title="代码审查不是用来……">代码审查不是用来……</a></li><li><a href="http://www.admin10000.com/document/1557.html" title="Git常用命令">Git常用命令</a></li><li><a href="http://www.admin10000.com/document/4698.html" title="程序员需谨记的8条团队开发原则">程序员需谨记的8条团队开发原则</a></li><li><a href="http://www.admin10000.com/document/3177.html" title="从真实案例出发：如何在协作开发中避免误解！">从真实案例出发：如何在协作开发中避免误解！</a></li><li><a href="http://www.admin10000.com/document/2249.html" title="结对编程——我的噩梦">结对编程——我的噩梦</a></li><li><a href="http://www.admin10000.com/document/2009.html" title="需求如何进行敏捷设计">需求如何进行敏捷设计</a></li><li><a href="http://www.admin10000.com/document/5050.html" title="傻瓜式软件开发过程讲解">傻瓜式软件开发过程讲解</a></li><li><a href="http://www.admin10000.com/document/1311.html" title="面向对象不是计算机编程的基本原子">面向对象不是计算机编程的基本原子</a></li></ul>
+                    </div>
+                </div>
+
+				<div class="ad_250x250_sogou">
+                  <script type="text/javascript">
+var sogou_ad_id=308586;
+var sogou_ad_height=250;
+var sogou_ad_width=250;
+</script>
+<script language="JavaScript" type="text/javascript" src="http://images.sohu.com/cs/jsfile/js/c.js"></script>
+
+                </div>
+
+                <div>
+
+
+					<script type="text/javascript">
+    /*120*300 创建于 2015-01-03*/
+var cpro_id = "u1889509";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/f.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    /* 创建于 2015-01-03*/
+var cpro_id = "u1889535";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/i.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    /* admin10000 内文 创建于 2015-01-25*/
+var cpro_id = "u1922429";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/cnw.js" type="text/javascript"></script>
+
+
+                    <!--cnzz tui-->
+                    <script type="text/javascript" charset="utf-8" src="http://tui.cnzz.net/cs.php?id=1000004008"></script>
+                    <!--cnzz tui-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="link">
+            <a href="http://www.admin10000.com/about/us.html">关于我们</a> | <a href="http://www.admin10000.com/about/copy.html">
+                版权声明</a> | <a href="http://www.admin10000.com/about/sorry.html">免责条款</a>
+            | <a href="http://www.admin10000.com/about/private.html">隐私政策</a> | <a href="http://www.admin10000.com/about/ad.html">
+                网站合作</a> | <a href="http://www.admin10000.com/about/donate.html">捐赠本站</a> | <a href="http://www.admin10000.com/about/feedback.html">建议留言</a>
+        </div>
+        <div class="copyright">
+            Copyright © 2012 <strong><a href="http://www.admin10000.com/" target="_blank">Admin10000.com</a></strong>
+            All rights reserved <a href="http://www.miibeian.gov.cn/" target="_blank">陕ICP备06007334号-1</a> 
+
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F2038689e579769054cca2f3e018a5cc0' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="http://hm.baidu.com/h.js?2038689e579769054cca2f3e018a5cc0" type="text/javascript"></script>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan style='display:none' id='cnzz_stat_icon_3895900'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/stat.php%3Fid%3D3895900' type='text/javascript'%3E%3C/script%3E"));</script><span style="display:none" id="cnzz_stat_icon_3895900"></span><script src="http://s5.cnzz.com/stat.php?id=3895900" type="text/javascript"></script>
+        </div>
+    </div>
+    
+<script type="text/javascript">$.get("/Common/Spread.ashx?rand="+Math.random()+"", { "sp": getUrlParam('sp') }, function() { });</script></form>
+
+
+</body><style id="stylish-1" class="stylish" type="text/css">/* i really want this to be global */
+#ad,#ads,#ShowAD,#ShowDIV_UNION,#banner-ad,.show_ad,.bannerad,.header_gg,.side_ads,.AdUnit,.ads,
+.Grid4,.RelatedContent,#_popup_msg_container,.a_pt,.a_pr,div.bm.lk,#nointelliTXT,#nointelliTXT,
+#doc_end_ad1,#p8_2a_46_112,#AdRight-Article-QQ,.flash-replaced,#ADLeft,#bbs_jxtj,#shoppromo,
+.kdiv,#Tombstone,.KonaFilter,.listlinks,.AdBox-Article-QQ,#float_right_parent_div,#freesignup,
+.spl_ad_plus,.instreet_other,#AC_TR86_73801,.banner_ad,#gwt-debug-ad,#story_main_mpu,#fdAd,
+.adv,.mod-p4poffers,.blog-article-ad-wrapper,.widget_d_hotpost,#spaceBrandAd,.hover-box,
+.DaKuang,#lovexin12,#lovexin14,.vip,.forumtoptext-wrap,#random-ads,.outertxt,#tonglan1,
+#faceid1,#der234,#Al_adwin,#wdit,#zc1,[id^="aDcon"],.banner-leaderboard,#chitikaAdBlock-0,
+.SLL,#comad,.games_right_side,#ActivepowerPageTopAD,.ActivepowerForumViewTopicContentAD,#ad-1,
+.forumviewTopicBottomAD,#ctl00_Header,.a_cu_2,.a_fl,.a_cb,.a_t,.ad285,.textad,.admove,.recommend-bd,
+#theAd,#slot_REC,.adholder,.ad_global_header,.adbot_postbit,.adbot_showthread,.ad2,#ad-3,.todayjinri,
+#ft-toolbar,[id^="adzerk"],#dialog_HDpopMsg,.p_ad,div#sb1.sb,iframe#ip0,#sponsoredLinks,.alibar-tips fd-hide,
+tr.t_infoline,.mediumRectangleAd,#rbox_o_shopping,.advertisements,.a_f,#site .similarSites .similarSitesList .result.ad.ad-google,
+.adsbygoogle,.u5,#searchspe,.d10,
+
+div[class^="advert"],div[id^="AD"],div[id="ad"],div[class^="aXd"],[id^="google-ads"],[class^="g-ad"],[id^="ad_"],
+[id^="_iCast3"],[id^="kw_ad"],tr[class="ad"],[id^="google_ads"],[id^="yodaoad"],[id^="sideAD"],div[class^="ad_area"],[class^="gug"],
+[src^="//ad"],[class^="gg"],[class^="game"],
+
+[style="float:left;width:260px;height:260px;"],
+iframe[src^="http://www.taobao.com/go/act/"],
+iframe[src^="http://www.googleadservices.com"],
+iframe[src^="http://googleads"],
+iframe[src^="http://eiv.baidu.com"],
+iframe[src^="http://view.atdmt.com"],
+iframe[src^="http://affiliate"],
+iframe[src^="http://ftchinese.allyes.com"],
+iframe[src^="http://afp"],
+iframe[src^="http://ad"],
+iframe[src^="http://bwp.cnet"],
+[src^="http://www.blogad.com.tw"],
+[src^="http://www.urlad.com.tw"],
+iframe[src^="http://www.serchen.com/reach/ads"],
+iframe[src="http://alexa.cn/ad_00.php"],
+iframe[src^="http://union"],
+iframe[src^="http://cpro.baidu.com"],
+iframe[src^="http://z.alimama.com"],
+iframe[src="http://impservice.union"],
+ins[id^="aswift"],
+a[href^="http://da.feedsportal.com"],
+a[href^="http://s.click.taobao.com"],
+img[ck="zoomImg"],
+iframe[class^="ad"]
+
+{display:none !important;}
+
+ 
+
+div[style="position: absolute; overflow: hidden; left: 0px; right: 0px; bottom: 0px; height: 135px;"]
+{display:none !important;}
+div[style="position: absolute; overflow: hidden; left: 0px; top: 0px; right: 0px; bottom: 165px;"]
+{bottom:0px !important;}
+.b_ad
+{display:none !important;}</style><div></div></html>
