@@ -21,9 +21,13 @@ Created Monday 13 October 2014
 *local Email server troubleshooting: *
 
 > telnet mail.server 25
+
 > HELO my.server
+
 > MAIL FROM:  <user @ my.server>
+
 > RCPT TO:  <rcpt@ server.com>
+
 > DATA
 
 **CODE denoting**
