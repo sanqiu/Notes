@@ -42,6 +42,6 @@ function getTop(e){
 - keys(), values()
 - monitor(func), unmonitor(func)
 - monitorEvents(obj,events) :: monitorEvents(window,["resize","scroll"])
-![event-mapping](../../../Pics/events-mapping.png "Event Mappping")
+![event-mapping](../../Pics/events-mapping.png "Event Mappping")
 - table(array)
 
