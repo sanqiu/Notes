@@ -5,38 +5,43 @@ Creation-Date: 2014-08-26T09:33:27+08:00
 ====== Css ======
 Created Tuesday 26 August 2014
 
+####Difference####
+- b is a style, strong is semantic, meaning additional info like  lower tone in programs for blind, behaving in style a bold.
+- i is a style, em is semantic, meaning should be emphasized. behaving in style a italic
 == selectors ==
-Universal  *
-Type selector h1, p
-id selector
-class selector
-child selector  .class > #id
-descendent selector .class #id
-adjacent sibling selector .class+#id ## the first sibling id of class
-general siblings selector .class~#id        ##all sbling #id of .class
+-  Universal  *
+-  Type selector h1, p
+-  id selector
+-  class selector
+-  child selector  .class > #id
+-  descendent selector .class #id
+-  adjacent sibling selector .class+#id ## the first sibling id of class
+-  general siblings selector .class~#id        ##all sbling #id of .class
+
 img
 
 == Horizontal centering ==
-{margin: 0 auto;}
+``{margin: 0 auto;}``
 
 == Vertical centering ==
-{position:absolute; top:50%; height:500px ; margin-top:-250px;}
+> {position:absolute; top:50%; height:500px ; margin-top:-250px;}
 
 == Fluid images ==
-img {width: 100%;  height:100%;}
+> img {width: 100%;  height:100%;}
 
 == 3D button ==
-.button {border: 1px solid; border-color:  #1 #2 #3 #4;}
-box-shadow {h-shadow v-shadow blur color;} {box-shadow: 10px 10px 5px #888888;}
-text-shadow {}
+`.button {border: 1px solid; border-color:  #1 #2 #3 #4;}`
+
+`box-shadow {h-shadow v-shadow blur color;} {box-shadow: 10px 10px 5px #888888;}`
+`text-shadow {}``
 
 == Font shorthand ==
-body { font: font-style font-variant font-weight font-size line-height font-family; }
+`body { font: font-style font-variant font-weight font-size line-height font-family; }`
 
 == Multi-class to an HTML element ==
 Round corners
-.class {border-radius: 5px; [[-webkit-border-radius: 5px;]] -moz-border-radius:5px;}
-.class {border-top-radius: 5px; -webkit-border-left-radius: 5px; -moz-border-radius-top-left: 5px;}
+`.class {border-radius: 5px; [[-webkit-border-radius: 5px;]] -moz-border-radius:5px;}`
+`.class {border-top-radius: 5px; -webkit-border-left-radius: 5px; -moz-border-radius-top-left: 5px;}`
 
 == Hyperlink style ==
 a:link, a:visited, a:hover, a:active
