@@ -31,8 +31,6 @@ function getTop(e){
 - console.dirxml()
 - console.log(), console.error(), console.info()
 - formatter: %s string, %d int, %O js object
-
-##Console API##
 - $_ returns the mostly evaluated expression
 - $0, $1,$2,$3, $4  returns the mostly selected dom element
 - $() == document.querySelector(); $$() == document.querySelectorAll()
@@ -45,3 +43,23 @@ function getTop(e){
 ![event-mapping](../../Pics/events-mapping.png "Event Mappping")
 - table(array)
 
+
+*将阿里巴巴的关键词导出*
+`
+	var container = $x('//*[@id="J-keyword-table"]/tbody/tr/td/a[@data-keyword]');
+	var aLength = container.length;
+	div = document.querySelector('.ui-pagination');
+	for (i = 0; i < aLength; i++) {
+  	div.innerHTML += '<br>'+container[i].getAttribute('data-keyword');
+	 }
+`
+
+`
+var kwContainer = $x("//*[@id='J-keywords-content']/tr/td[1]");
+var kwLength = kwContainer.length;
+div = document.querySelector("#J-pagination");
+
+for (i=0; i< kwLength; i++) {
+ div.innerHTML += '<br>'+ kwContainer[i].textContent;
+}
+`
