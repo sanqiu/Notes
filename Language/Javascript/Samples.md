@@ -44,22 +44,23 @@ function getTop(e){
 - table(array)
 
 
-*将阿里巴巴的关键词导出*
-`
-	var container = $x('//*[@id="J-keyword-table"]/tbody/tr/td/a[@data-keyword]');
-	var aLength = container.length;
-	div = document.querySelector('.ui-pagination');
-	for (i = 0; i < aLength; i++) {
+**将阿里巴巴的关键词导出**
+```javascript
+var container = $x('//*[@id="J-keyword-table"]/tbody/tr/td/a[@data-keyword]');
+var aLength = container.length;
+var div = document.querySelector('.ui-pagination');
+for (i = 0; i < aLength; i++) {
   	div.innerHTML += '<br>'+container[i].getAttribute('data-keyword');
 	 }
-`
+```
 
-`
+
+```javascript
 var kwContainer = $x("//*[@id='J-keywords-content']/tr/td[1]");
 var kwLength = kwContainer.length;
-div = document.querySelector("#J-pagination");
-
+var div = document.querySelector("#J-pagination");
 for (i=0; i< kwLength; i++) {
- div.innerHTML += '<br>'+ kwContainer[i].textContent;
-}
-`
+	 div.innerHTML += '<br>'+ kwContainer[i].textContent;
+	}
+```
+
