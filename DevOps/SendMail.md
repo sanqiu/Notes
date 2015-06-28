@@ -18,17 +18,22 @@ Created Monday 13 October 2014
 * After modifying main.cf, be sure to run '/etc/init.d/postfix reload'.*
 ####SPAM####
 
+![SMTP RCPT-SEND](../Pics/smtpmail.png "smtp telnet text")
 *local Email server troubleshooting: *
+```text
+ telnet mail.server 25
 
-> telnet mail.server 25
+ HELO my.server
 
-> HELO my.server
+ MAIL FROM:  <user @ my.server>
 
-> MAIL FROM:  <user @ my.server>
+ RCPT TO:  <rcpt@ server.com>
 
-> RCPT TO:  <rcpt@ server.com>
+ DATA
+ .
 
-> DATA
+ quit
+```
 
 **CODE denoting**
 - start with 2 : successful
