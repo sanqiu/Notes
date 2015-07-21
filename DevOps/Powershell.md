@@ -57,3 +57,16 @@ F7,Select from history
 F8, Equivalent to the ctl+r  search based on the typed char
 F9, Run from history N
 ```
+
+##Notice##
+- variable is thisIsVariable, cmdlet and members are ThisIsMember or Verb-Noun
+- $lastExitCode  
+- $?  [dollar hook]
+- Measure-Command {Get-Command}
+- Start-Transcript / recorde the operations of this ps session
+- Write-Progress / Write-Verbose
+- $pshome is powerhell var, env:path is system enviromental variable
+- Read-Host, Start-Sleep, ReadKey(),
+- here document @"      "@
+- 'n new line   `n to escape
+- 
