@@ -17,6 +17,8 @@ Created Tuesday 06 January 2015
 - if ($a -ceq $b) {} ##sensitive
 - if ($a -ieq $b) {} ## insensitive
 - foreach ($name in $names) {}
+- new-object namespace.class @(argLList)  eg, PS >$memoryStream = New-Object System.IO.MemoryStream @(,$bytes)
+
 ```
 [int]$var=value ## declare a var and its type(not necessary but helpful)
 $myArray = 1,"Hello",3.5,"World"
