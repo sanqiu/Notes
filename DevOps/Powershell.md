@@ -32,7 +32,17 @@ invoke-webrequest $url -outfile name -credential user
 gwmi win32_service | where {$_.**StartMode** -ne “Disabled”} | select name,startname ## $_.status -eq running
 gwmi  win32_service -credential administrator -computer name
 ```
-
+- the ` (backtick ascii 96 is the powershell continuation character)
+```
+get-process powershell -computername localhost, Server01, Server02 | format-table -property Handles, `
+                    @{Label="NPM(K)";Expression={[int]($_.NPM/1024)}}, `
+                    @{Label="PM(K)";Expression={[int]($_.PM/1024)}}, `
+                    @{Label="WS(K)";Expression={[int]($_.WS/1024)}}, `
+                    @{Label="VM(M)";Expression={[int]($_.VM/1MB)}}, `
+                    @{Label="CPU(s)";Expression={if ($_.CPU -ne $()` 
+                    {$_.CPU.ToString("N")}}}, `                                                                         
+                    Id, ProcessName, MachineName -auto
+```                    
 - -filter
 > enable the telnet from cmd:
 > dism /online /Enable-Feature /FeatureName:TelnetClient
