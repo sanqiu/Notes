@@ -12,6 +12,8 @@ Created Tuesday 06 January 2015
 - get-services -name '' |where {$_.status -eq ""}
 - get-wmiobject [-class] win32_service|win32_process| win32_bios| win32_logicaldisk| win32_operatingsystem -computername "ip"  -credential username
 - gwmi -query "select * from win32_service where name =like '%alerter%' "
+-  Get-CimInstance -Query "SELECT * from Win32_Process WHERE name LIKE 'p%'"
+-  Get-CimInstance -ClassName Win32_Process -Filter "Name like 'p%'"
 - set-service  servicename -startuptype disabled
 
 - if ($a -ceq $b) {} ##sensitive
@@ -70,5 +72,4 @@ F9, Run from history N
 - $pshome is powerhell var, env:path is system enviromental variable
 - Read-Host, Start-Sleep, ReadKey(),
 - here document @"      "@
-- 'n new line   `n to escape
-- 
+- 'n new line   \`n to escape
