@@ -11,11 +11,11 @@ Created Tuesday 25 November 2014
 - ss $$ sockets statistics
 
 - localectl
->	 status |list-locales|list-keymaps|set-locale| set-x11-keymap
+> status |list-locales|list-keymaps|set-locale| set-x11-keymap
 - timedatectl 
->	status |list-timezones 
->	set-time 2012-10-30 18:17:16
->	set-ntp yes|no
->	set-timezone TZ
+> status |list-timezones 
+> set-time 2012-10-30 18:17:16
+> set-ntp yes|no
+> set-timezone TZ
 	
 	
