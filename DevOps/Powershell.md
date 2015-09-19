@@ -72,7 +72,7 @@ F8, Equivalent to the ctl+r  search based on the typed char
 F9, Run from history N
 ```
 
-##Notice##
+**Notice**
 - variable is thisIsVariable, cmdlet and members are ThisIsMember or Verb-Noun
 - $lastExitCode  
 - $?  [dollar hook]
@@ -83,7 +83,8 @@ F9, Run from history N
 - Read-Host, Start-Sleep, ReadKey(),
 - here document @"      "@
 - 'n new line   \`n to escape
-##useful for amdin##
+
+**useful for amdin**
 - get-appxpackage
 - remove-appxpackage
 - get-appxpackagemanifest -path
@@ -96,13 +97,14 @@ F9, Run from history N
 - compress-archive/expand-archive -path -des
 - get-counter -listset tcpv4/icmp
 - get-winevent -path -listlog
-> start-transaction
-> command-toexc -usetx; command-toexc2 -usetx
-> stop-transaction/complete/undo
+```
+ start-transaction
+ command-toexc -usetx; command-toexc2 -usetx
+ stop-transaction/complete/undo
+``` 
 - test-wsman to test weather the computer is running the ws-management winrm service
 - restart-netadapter; set-netadapter ; set-netconnectionprofile
 - set-netnat;
 - get-netfirewallrule/profile; new-netfirewalladdress/application/port/interface/filter;
 - get-netroute/neighbor/ipaddress./ipinterface/tcpconnection/tcpsetting
--
 
