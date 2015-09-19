@@ -11,7 +11,7 @@ HEAD : this is a pointer to the local branch you are currentlu on. ##  stores in
 
 If a particular version of a file is in the git directory, it’s considered commi ed. If it’s modified but has been added to the staging area, it is staged. And if it was changed since it was checked out but has not been staged, it is modified.
 
-You’ll notice the phrase “**Fast-forward**” in that merge. Because the commit pointed toby the branch you merged in was directly upstream of the commit you’re on, Git moves thepointer forward. To phrase that another way, when you try to merge one commit with a commit that can be reached by following the first commit’s history, Git simplifies things bymoving the pointer forward because there is no divergent work to merge together — this is
+You've notice the phrase **Fast-forward** in that merge. Because the commit pointed toby the branch you merged in was directly upstream of the commit you’re on, Git moves thepointer forward. To phrase that another way, when you try to merge one commit with a commit that can be reached by following the first commit’s history, Git simplifies things bymoving the pointer forward because there is no divergent work to merge together — this is
 called a “fast forward”.
 
 Git has three main states that your files can reside in: commi ed, modified, and staged. Commi ed means that the data is safely stored in your local database. Modified means that you have changed the file but have not commi ed it to your database yet. Staged means that you have marked a modified file in its current version to go into your next commit snapshot

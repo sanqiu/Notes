@@ -83,3 +83,26 @@ F9, Run from history N
 - Read-Host, Start-Sleep, ReadKey(),
 - here document @"      "@
 - 'n new line   \`n to escape
+##useful for amdin##
+- get-appxpackage
+- remove-appxpackage
+- get-appxpackagemanifest -path
+- get-ciminstance
+- get-cimclass
+- get-wppreference set/add/remove-wppreference -exclusionpath
+- dism-> get/add-windowsimage -path(vhd)
+- set-dnsclientserveraddress -serveraddress 
+- set-winsystemlocale zh_CN
+- compress-archive/expand-archive -path -des
+- get-counter -listset tcpv4/icmp
+- get-winevent -path -listlog
+> start-transaction
+> command-toexc -usetx; command-toexc2 -usetx
+> stop-transaction/complete/undo
+- test-wsman to test weather the computer is running the ws-management winrm service
+- restart-netadapter; set-netadapter ; set-netconnectionprofile
+- set-netnat;
+- get-netfirewallrule/profile; new-netfirewalladdress/application/port/interface/filter;
+- get-netroute/neighbor/ipaddress./ipinterface/tcpconnection/tcpsetting
+-
+
