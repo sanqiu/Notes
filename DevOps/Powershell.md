@@ -107,4 +107,7 @@ F9, Run from history N
 - set-netnat;
 - get-netfirewallrule/profile; new-netfirewalladdress/application/port/interface/filter;
 - get-netroute/neighbor/ipaddress./ipinterface/tcpconnection/tcpsetting
-
+- new-selfsignedcertificate
+- new-smbshare -name string -path "/" -readaccess user1,user2
+- set-windowssearchsetting
+- get-windowsupdatelog
