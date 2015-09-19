@@ -111,3 +111,4 @@ F9, Run from history N
 - new-smbshare -name string -path "/" -readaccess user1,user2
 - set-windowssearchsetting
 - get-windowsupdatelog
+- add-printerdriver -name "" -infpath "/to/inf"
