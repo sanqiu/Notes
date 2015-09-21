@@ -117,6 +117,7 @@ F9, Run from history N
 - interactive pssession ; new-pssessionoption; new-psssession;enter-pssession;
 - invoke-command -computername 1,2,3 -session [pssession] -srciptblock {get-command};
 - command -computername $name -credential $creds
+
  ```
  	wmi ,rpc service ,netbios name, udp/tcp port 135
  	winrm, psremoting, dns name, tcp port 5985,5986
