@@ -122,5 +122,8 @@ F9, Run from history N
  	wmi ,rpc service ,netbios name, udp/tcp port 135
  	winrm, psremoting, dns name, tcp port 5985,5986
  	cim, client-server, dns name, tcp port 5988,5989
+ 	1. active directory environment
+ 	2. mutual authentication via ssl
+ 	3. use trusted host (disable mutual authentication)
  ```
 
