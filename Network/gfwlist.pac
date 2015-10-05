@@ -3022,7 +3022,11 @@ var domains = {
   "91porn.com": 1, 
   "wtfpeople.com": 1, 
   "1-apple.com.tw": 1,
-  "blogspot.com": 1
+  "blogspot.com": 1,
+  "akamaihd.net": 1,
+  "cdn.sstatic.net": 1,
+  "tvb.com": 1,
+  "akamai.net": 1
 };
 
 var direct = 'DIRECT;';
