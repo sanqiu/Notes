@@ -1828,6 +1828,7 @@ var domains = {
   "taup.org.tw": 1, 
   "zattoo.com": 1, 
   "askynz.net": 1, 
+  "zaobao.com.sg": 1, 
   "deviantart.com": 1, 
   "multiproxy.org": 1, 
   "weekmag.info": 1, 
@@ -2277,6 +2278,7 @@ var domains = {
   "imkev.com": 1, 
   "websitepulse.com": 1, 
   "listorious.com": 1, 
+  "zaobao.com": 1, 
   "open.com.hk": 1, 
   "youversion.com": 1, 
   "rlwlw.com": 1, 
@@ -3021,12 +3023,7 @@ var domains = {
   "darpa.mil": 1, 
   "91porn.com": 1, 
   "wtfpeople.com": 1, 
-  "1-apple.com.tw": 1,
-  "blogspot.com": 1,
-  "akamaihd.net": 1,
-  "cdn.sstatic.net": 1,
-  "tvb.com": 1,
-  "akamai.net": 1
+  "1-apple.com.tw": 1
 };
 
 var direct = 'DIRECT;';
