@@ -7,7 +7,8 @@ Created Sunday 24 August 2014
 
 == COMMAND ==
 
-** delete print substitute insert append read  transform quit**
+**delete print substitute insert append read  transform quit**
+
 ```
 sed '/my/p' ''datafile''  display lines containing 'my'
 sed '$d' datafile   sed '/my/d' datafile  ## delete last line or lines containing my
