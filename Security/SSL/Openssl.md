@@ -15,6 +15,15 @@ Public-key method:
 Digest: one-way 
 	rsa,dsa,ssl3,md45,sha1-512,ecdsa,whirpool
 	
-	æ¶ˆæ¯æ‘˜è¦ç®—æ³•çš„ä¸»è¦ç‰¹å¾æ˜¯åŠ å¯†è¿‡ç¨‹ä¸éœ€è¦å¯†é’¥ï¼Œå¹¶ä¸”ç»è¿‡åŠ å¯†çš„æ•°æ®æ— æ³•è¢«è§£å¯†ï¼Œåªæœ‰è¾“å…¥ç›¸åŒçš„æ˜Žæ–‡æ•°æ®ç»è¿‡ç›¸åŒçš„æ¶ˆæ¯æ‘˜è¦ç®—æ³•æ‰èƒ½å¾—åˆ°ç›¸åŒçš„å¯†æ–‡ã€‚RSAå…¬å¸çš„MD5ç®—æ³•å’ŒSHA-1ç®—æ³•åŠå…¶å¤§é‡çš„å˜ä½“ã€‚
-	å¯¹ä¸€ä¸ªä¿¡æ¯çš„æ‘˜è¦ç§°ä¸ºè¯¥æ¶ˆæ¯çš„æŒ‡çº¹æˆ–æ•°å­—ç­¾å
-genpkey: 
+
+ÏûÏ¢ÕªÒªËã·¨µÄÖ÷ÒªÌØÕ÷ÊÇ¼ÓÃÜ¹ý³Ì²»ÐèÒªÃÜÔ¿£¬²¢ÇÒ¾­¹ý¼ÓÃÜµÄÊý¾ÝÎÞ·¨±»½âÃÜ£¬Ö»ÓÐÊäÈëÏàÍ¬µÄÃ÷ÎÄÊý¾Ý¾­¹ýÏàÍ¬µÄÏûÏ¢ÕªÒªËã·¨²ÅÄÜµÃµ½ÏàÍ¬µÄÃÜÎÄ¡£RSA¹«Ë¾µÄMD5Ëã·¨ºÍSHA-1Ëã·¨¼°Æä´óÁ¿µÄ±äÌå¡£
+ 	¶ÔÒ»¸öÐÅÏ¢µÄÕªÒª³ÆÎª¸ÃÏûÏ¢µÄÖ¸ÎÆ»òÊý×ÖÇ©Ãû genpkey: 
+
+TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+
+¡¡¡¡´ÓÆäÃû×Ö¿ÉÖª£¬ËüÊÇ
+  1  »ùÓÚTLSÐ­ÒéµÄ£»
+  2  Ê¹ÓÃECDHE¡¢RSA×÷ÎªÃÜÔ¿½»»»Ëã·¨£»
+  3  ¼ÓÃÜËã·¨ÊÇAES£¨ÃÜÔ¿ºÍ³õÊ¼ÏòÁ¿µÄ³¤¶È¶¼ÊÇ256£©£»
+  4  MACËã·¨£¨ÕâÀï¾ÍÊÇ¹þÏ£Ëã·¨£©ÊÇSHA¡£
+
