@@ -18,3 +18,14 @@ Digest: one-way
 	消息摘要算法的主要特征是加密过程不需要密钥，并且经过加密的数据无法被解密，只有输入相同的明文数据经过相同的消息摘要算法才能得到相同的密文。RSA公司的MD5算法和SHA-1算法及其大量的变体。
 	对一个信息的摘要称为该消息的指纹或数字签名
 genpkey: 
+
+**example**:
+TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+
+�����������ֿ�֪������
+
+    ����TLSЭ��ģ�
+    ʹ��ECDHE��RSA��Ϊ��Կ�����㷨��
+    �����㷨��AES����Կ�ͳ�ʼ�����ĳ��ȶ���256����
+    MAC�㷨��������ǹ�ϣ�㷨����SHA��
+
