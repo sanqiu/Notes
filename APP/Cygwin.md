@@ -12,3 +12,9 @@ telnet
 mysql
 postgresql
 apache
+python
+gcc(devel),libxml, libxsl,  openssl, libopenssl
+get-pip https://bootstrap.pypa.io/get-pip.py
+pip
+
+
