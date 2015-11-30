@@ -2842,7 +2842,6 @@ var domains = {
   "dabr.mobi": 1, 
   "catch22.net": 1, 
   "digitalnomadsproject.org": 1, 
-  "github.com": 1, 
   "laptoplockdown.com": 1, 
   "pcdvd.com.tw": 1, 
   "compileheart.com": 1, 
@@ -3023,7 +3022,8 @@ var domains = {
   "wtfpeople.com": 1, 
   "1-apple.com.tw": 1,
   "blogspot.com": 1,
-  "bp.blogspot.com": 1
+  "bp.blogspot.com": 1,
+  "thehackernews.com": 1
 };
 
 var direct = 'DIRECT;';
