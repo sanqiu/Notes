@@ -126,3 +126,5 @@ CMD  ## can be viewed as a paparam of ENTRYPOINT ## overriden by specified cmd f
 VOLUME
 USER
 ONBUILD ## Exex after the downstream,ie the FROM instruction ## any instruction can be a trigger of ONBUILD
+ENVIRONMENT
+

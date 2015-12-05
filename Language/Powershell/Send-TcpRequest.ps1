@@ -117,4 +117,4 @@ function GetOutput
     } while($foundmore)
     $outputBuffer
 }
-.Main
+Main
