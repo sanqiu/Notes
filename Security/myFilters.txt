@@ -1,3 +1,5 @@
+! Title: myFilters
+
 ||lib.leadscloud.com^$third-party
 ||skeycig.com^$media
 ||nyt.com^$media,third-party
