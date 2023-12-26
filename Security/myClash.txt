@@ -49,6 +49,7 @@ payload:
   - 'metrics.data.hicloud.com'
   - 'metrics-dra.dt.hicloud.com' 
   - 'ubacollect-drcn.cloud.dbankcloud.cn'
+  - 'sdkserver-drcn.op.dbankcloud.cn'
   - 'searchnews-drcn.dt.dbankcloud.com'
   - 'eu.mclean.50union.com'
   - 'eu.mvconf.50union.com'
