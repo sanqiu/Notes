@@ -61,6 +61,7 @@ payload:
   - 'feeds-drcn.dbankcdn.cn'
   - 'adx-drcn.op.dbankcloud.cn'
   - 'jgw-drcn.jos.dbankcloud.cn'
+  - 'apppromotion-drcn.dbankcdn.cn'
   - 'dzen.ru'
   - 'sba.yandex.net'
   - 'ad.docer.wps.cn'
