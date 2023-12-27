@@ -90,3 +90,4 @@ payload:
   - 'open.toutiao.com'
   - 'events-drcn.op.dbankcloud.cn'
   - 'pcapp-data-collect.youku.com'
+  - '+.mmstat.com'
