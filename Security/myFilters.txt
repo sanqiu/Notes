@@ -4,7 +4,7 @@
 
 !! Networks filters
 ||lib.leadscloud.com^$third-party
-||skeycig.com^$media
+||skeycig.com^$media,domain=skeycig.com
 ||nyt.com^$media,third-party
 
 
