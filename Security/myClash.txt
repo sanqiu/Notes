@@ -62,6 +62,7 @@ payload:
   - 'adx-drcn.op.dbankcloud.cn'
   - 'jgw-drcn.jos.dbankcloud.cn'
   - 'apppromotion-drcn.dbankcdn.cn'
+  - 'connectivitycheck.cbg-app.huawei.com'
   - 'dzen.ru'
   - 'sba.yandex.net'
   - 'ad.docer.wps.cn'
