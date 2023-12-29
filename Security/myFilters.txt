@@ -12,3 +12,4 @@
 !!Elements filters
 guancha.cn##.go-to-app
 dict.cn###dbann
+qcc.com##.company-banner
