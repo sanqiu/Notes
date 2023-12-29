@@ -11,7 +11,6 @@ payload:
   - 'startup.mobile.yandex.net'
   - 'collections.yandex.ru'
   - 'sba.yandex.net'
-  - '+.yandex.ru'
   - '+.myadssupport.com'
   - 'fo.iemiq.com'
   - 'rewardsplatform.microsoft.com'
