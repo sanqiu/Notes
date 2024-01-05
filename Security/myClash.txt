@@ -103,5 +103,6 @@ payload:
   - 'amdcopen.m.umeng.com'
   - 'mamasearchad.cloudvideocdn.taobao.com'
   - 'hagmanagerres-drcn.dbankcdn.com'
+  - 'hag-drcn.op.hicloud.com'
   - 'guide-acs4miniapp-inner.m.taobao.com'
   - 'cdn-mum.alibabachengdun.com'
