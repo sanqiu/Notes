@@ -125,3 +125,4 @@ payload:
   - '+.msn.cn'
   - '+.events.data.microsoft.com'
   - '+.adobe.io'
+  - 'pcapp-data-collect.youku.com'
