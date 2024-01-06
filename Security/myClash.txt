@@ -122,3 +122,6 @@ payload:
   - 'h-adashx.ut.taobao.com'
   - 'cdn-mum.alibabachengdun.com.w.alikunlun.com'
   - 'cdn-mum.alibabachengdun.com'
+  - '+.msn.cn'
+  - '+.events.data.microsoft.com'
+  - '+.adobe.io'
