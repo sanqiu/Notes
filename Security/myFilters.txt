@@ -1,5 +1,5 @@
 ! Title: myFilters
-! Expires: 2 days
+! Expires: 2 hours
 
 
 !! Networks filters
