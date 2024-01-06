@@ -60,6 +60,7 @@ payload:
   - 'configserver-dra.platform.hicloud.com'
   - 'configserver-dre.platform.hicloud.com'
   - 'configserver-drru.platform.hicloud.com'
+  - 'videocontent-drcn.himovie.dbankcloud.cn'
   - 'eu.mclean.50union.com'
   - 'eu.mvconf.50union.com'
   - 'events-dra.op.hicloud.com'
