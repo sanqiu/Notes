@@ -15,3 +15,4 @@ dict.cn###dbann
 qcc.com##.company-banner
 qcc.com##.vip-tag.app-header-drop
 ipchaxun.com##.MODBanana
+slashdot.org##.ad-on
