@@ -76,6 +76,7 @@ payload:
   - 'apppromotion-drcn.dbankcdn.cn'
   - 'connectivitycheck.cbg-app.huawei.com.cn'
   - 'connectivitycheck.platform.dbankcloud.com'
+  - 'connectivitycheck.platform.hicloud.com'
   - 'videocontent-drcn.himovie.dbankcloud.cn'
   - 'achievement-dre.things.hicloud.com'
   - 'api.cloud.hicloud.com'
