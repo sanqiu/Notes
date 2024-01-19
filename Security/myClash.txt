@@ -155,3 +155,4 @@ payload:
   - '+.events.data.microsoft.com'
   - '+.adobe.io'
   - 'pcapp-data-collect.youku.com'
+  - 'poplayer.template.alibaba.com'
