@@ -42,6 +42,7 @@ payload:
   - '+.unitychina.cn'
   - 'lib.leadscloud.com'
   - 'ad.12306.cn'
+  - 'metrics-drcn.dt.dbankcloud.cn'
   - 'metrics1.data.hicloud.com'
   - 'metrics2.data.hicloud.com'
   - 'metrics3.data.hicloud.com'
