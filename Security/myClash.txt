@@ -28,11 +28,11 @@ payload:
   - 'ads-shopping.shouqianba.com'
   - 'adstats.tencentmusic.com'
   - 'adx-drcn.op.dbankcloud.cn'
-  - 'adx-dre.op.dbankcloud.com
+  - 'adx-dre.op.dbankcloud.com'
   - 'amdc.alipay.com'
   - 'amdc.m.taobao.com'
   - 'amdcopen.m.umeng.com'
-  - 'api-dre.theme.dbankcloud.cn
+  - 'api-dre.theme.dbankcloud.cn'
   - 'api.cloud.huawei.com'
   - 'api.myadsget.com'
   - 'api.sve.cc'
@@ -58,12 +58,12 @@ payload:
   - 'connect-drcn.hispace.hicloud.com'
   - 'connectivitycheck.cbg-app.huawei.com'
   - 'connectivitycheck.cbg-app.huawei.com.cn'
-  - 'contentcenter-dre.dbankcdn.com
+  - 'contentcenter-dre.dbankcdn.com'
   - 'counter.kingsoft.com'
   - 'coupon-dre.iap.cloud.huawei.eu'
-  - 'cs02-pps-dre.dbankcdn.com
-  - 'cs02-pps-dre.dbankcdn.com.akamaized.net
-  - 'cs02-pps-dre.dbankcdn.com.cdn.dnsv1.com
+  - 'cs02-pps-dre.dbankcdn.com'
+  - 'cs02-pps-dre.dbankcdn.com.akamaized.net'
+  - 'cs02-pps-dre.dbankcdn.com.cdn.dnsv1.com'
   - 'datacollector-drcn.dt.dbankcloud.cn'
   - 'datacollector-dre.dt.dbankcloud.cn'
   - 'dbank.com'
@@ -114,8 +114,8 @@ payload:
   - 'h-adashx.ut.laifeng.com'
   - 'h-adashx.ut.taobao.com'
   - 'h-adashx4bc.ut.taobao.com'
-  - 'h5hosting-dre.dbankcdn.com
-  - 'h5hosting.dbankcdn.com
+  - 'h5hosting-dre.dbankcdn.com'
+  - 'h5hosting.dbankcdn.com'
   - 'hag-drcn.op.hicloud.com'
   - 'hag-dre.ai.hicloud.com'
   - 'hagmanagerres-drcn.dbankcdn.com'
@@ -174,7 +174,7 @@ payload:
   - 'mum.alibabachengdun.com'
   - 'news.docer.com'
   - 'notify.wps.cn'
-  - 'nsp-hicloud-cloudbuckupotc-p01-dre.obs.eu-de.otc.t-systems.com
+  - 'nsp-hicloud-cloudbuckupotc-p01-dre.obs.eu-de.otc.t-systems.com'
   - 'oauth-login-dre.platform.dbankcloud.com'
   - 'open.toutiao.com'
   - 'pangolin-sdk-toutiao-*.com'
@@ -219,16 +219,16 @@ payload:
   - 'tapi.pureapk.com'
   - 'terms-dre.platform.dbankcloud.cn
   - 'tongji.dcloud.io'
-  - 'tsms-dre.security.dbankcloud.cn
+  - 'tsms-dre.security.dbankcloud.cn'
   - 'ubacollect-drcn.cloud.dbankcloud.cn'
-  - 'uc-dre.hispace.dbankcloud.com
-  - 'ug-dre.media.dbankcloud.cn
+  - 'uc-dre.hispace.dbankcloud.com'
+  - 'ug-dre.media.dbankcloud.cn'
   - 'umdc.aliapp.org'
   - 'umdc.alibabachengdun.net'
   - 'umdc.hzchengdun.com'
   - 'umidiot.aliapp.org'
   - 'unityads.unity.cn'
-  - 'upfile7.hicloud.com
+  - 'upfile7.hicloud.com'
   - 'upfile7.hicloud.com'
   - 'userlink.alicdn.com'
   - 'vasvip-pub.wpscdn.cn'
