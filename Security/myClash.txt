@@ -1,4 +1,4 @@
-payload:
+payload:  
   - '+.adobe.io'
   - '+.anythinktech.com'
   - '+.bytegle.site'
@@ -127,7 +127,7 @@ payload:
   - 'httpdns.aliyun.com'
   - 'httpdns.host'
   - 'httpdns.platform.dbankcloud.com'
-  - 'httpdns.platform.dbankcloud.com' '
+  - 'httpdns.platform.dbankcloud.com '
   - 'hw-sdk.open.talk.getui.cn'
   - 'hwa.his.huawei.com'
   - 'hwid-dre.platform.hicloud.com'
