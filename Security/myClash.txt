@@ -43,10 +43,10 @@ payload:
   - 'bannera.kingsoft-office-service.com'
   - 'beacon-api.aliyuncs.com'
   - 'bole.shangshufang.ksosoft.com'
-  - 'browsercfg-dre.cloud.dbankcloud.cn
-  - 'browserr-dre.dbankcdn.cn
-  - 'campaign-dre.dbankcdn.cn
-  - 'ccpce-de.consumer.huawei.com
+  - 'browsercfg-dre.cloud.dbankcloud.cn'
+  - 'browserr-dre.dbankcdn.cn'
+  - 'campaign-dre.dbankcdn.cn'
+  - 'ccpce-de.consumer.huawei.com'
   - 'cdn-mum.alibabachengdun.com'
   - 'cdn-mum.alibabachengdun.com.w.alikunlun.com'
   - 'collections.yandex.ru'
