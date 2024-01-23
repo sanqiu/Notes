@@ -76,7 +76,7 @@ payload:
   - 'dbankedge.net'
   - 'dnkeeper.dbankcloud.com'
   - 'dnkeeper.hicloud.com'
-  - 'dnkeeper.platform.dbankcloud.cn
+  - 'dnkeeper.platform.dbankcloud.cn'
   - 'dnkeeper.platform.dbankcloud.cn'
   - 'docerad.wps.cn'
   - 'dzen.ru'
@@ -127,7 +127,7 @@ payload:
   - 'httpdns.aliyun.com'
   - 'httpdns.host'
   - 'httpdns.platform.dbankcloud.com'
-  - 'httpdns.platform.dbankcloud.com' 
+  - 'httpdns.platform.dbankcloud.com' '
   - 'hw-sdk.open.talk.getui.cn'
   - 'hwa.his.huawei.com'
   - 'hwid-dre.platform.hicloud.com'
@@ -214,10 +214,10 @@ payload:
   - 'stat.gspaceteam.com'
   - 'static-sg.winudf.com'
   - 'stats.pusher.com'
-  - 'store-dre.hispace.dbankcloud.com
+  - 'store-dre.hispace.dbankcloud.com'
   - 'suggest.sso.dzen.ru'
   - 'tapi.pureapk.com'
-  - 'terms-dre.platform.dbankcloud.cn
+  - 'terms-dre.platform.dbankcloud.cn'
   - 'tongji.dcloud.io'
   - 'tsms-dre.security.dbankcloud.cn'
   - 'ubacollect-drcn.cloud.dbankcloud.cn'
