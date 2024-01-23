@@ -61,7 +61,7 @@ payload:
   - 'connectivitycheck.cbg-app.huawei.com'
   - 'connectivitycheck.cbg-app.huawei.com.cn'
   - 'contentcenter-dre.dbankcdn.com'
-  - 'maptitle-drcn.map.dbankcdn.cn'
+  - 'maptile-drcn.map.dbankcdn.cn'
   - 'counter.kingsoft.com'
   - 'coupon-dre.iap.cloud.huawei.eu'
   - 'cs02-pps-dre.dbankcdn.com'
