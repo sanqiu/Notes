@@ -1,4 +1,4 @@
-payload:  
+payload:
   - '+.adobe.io'
   - '+.anythinktech.com'
   - '+.bytegle.site'
