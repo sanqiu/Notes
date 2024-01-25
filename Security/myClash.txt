@@ -153,7 +153,6 @@ payload:
   - 'id6.cloud.huawei.com'
   - 'id7.cloud.huawei.com'
   - 'supl.platform.dbankcloud.cn'
-  - 'ug-drcn.media.dbankcloud.cn'
   - 'img.gou.wpscdn.cn'
   - 'info.wps.cn'
   - 'ios-informationplatform.wps.cn'
