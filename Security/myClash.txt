@@ -58,7 +58,6 @@ payload:
   - 'connect-drcn.hispace.hicloud.com'
   - 'connect-drcn.map.hicloud.com'  
   - 'connect-drcn.map.dbankcloud.com'
-  - 'ug-drcn.media.dbankcloud.cn'
   - 'connectivitycheck.cbg-app.huawei.com'
   - 'connectivitycheck.cbg-app.huawei.com.cn'
   - 'contentcenter-dre.dbankcdn.com'
