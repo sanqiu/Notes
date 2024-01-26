@@ -20,7 +20,7 @@ payload:
   - '+.vip.wpscdn.cn'
   - '+.youngle.tech'
   - '+.zijieapi.com'
-  - '+.alibabadns.com'
+  - '*.alibabadns.com'
   - 'achievement-dre.things.hicloud.com'
   - 'ad.12306.cn'
   - 'ad.docer.wps.cn'
