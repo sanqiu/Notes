@@ -260,6 +260,6 @@ payload:
   - 'cloudgame-channel2.aliyuncs.com'
   - 'mum.hzchengdun.com'
   - 'report.dingtalk.com'
-  - 'log.aliyuncs.com'
+  - '+.log.aliyuncs.com'
   - '+.alimmdn.com'
   - '+.tanx.com'
