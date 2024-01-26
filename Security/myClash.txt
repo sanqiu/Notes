@@ -108,6 +108,7 @@ payload:
   - 'grs.hicloud.com'
   - 'grs.platform.dbankcloud.ru'
   - 'guide-acs4miniapp-inner.m.taobao.com'
+  - 'guide-acs.m.taobao.com'
   - 'h-adashx-internal.ut.taobao.com.gds.alibabadns.com'
   - 'h-adashx.dingtalkapps.com'
   - 'h-adashx.ut.cainiao.com'
@@ -261,3 +262,5 @@ payload:
   - 'cloudgame-channel2.aliyuncs.com'
   - 'mum.hzchengdun.com'
   - 'report.dingtalk.com'
+  - 'log.aliyuncs.com'
+  - '+.alimmdn.com'
