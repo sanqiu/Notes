@@ -264,3 +264,7 @@ payload:
   - 'report.dingtalk.com'
   - 'log.aliyuncs.com'
   - '+.alimmdn.com'
+  - 'guide-acs.m.taobao.com.gds.alibabadns.com'
+  - 'unitbrain-buyer-v6-pub.m.taobao.com.gds.alibabadns.com'
+  - 'unitbrain-guide-unit-v6-pub.m.taobao.com.gds.alibabadns.com'
+  - '+.tanx.com'
