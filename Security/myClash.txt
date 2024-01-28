@@ -137,8 +137,6 @@ payload:
   - 'resolver.dingtalk.com'
   - 'hw-sdk.open.talk.getui.cn'
   - 'hwa.his.huawei.com'
-  - 'hwid-dre.platform.hicloud.com'
-  - 'hwid.platform.hicloud.com'
   - 'iap-orders-dre.cloud.huawei.eu'
   - 'iap-pay-dre.cloud.huawei.eu'
   - 'ic.ksosoft.com'
