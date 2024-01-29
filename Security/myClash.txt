@@ -223,7 +223,6 @@ payload:
   - 'stat.gspaceteam.com'
   - 'static-sg.winudf.com'
   - 'stats.pusher.com'
-  - 'store-dre.hispace.dbankcloud.com'
   - 'suggest.sso.dzen.ru'
   - 'tapi.pureapk.com'
   - 'terms-dre.platform.dbankcloud.cn'
