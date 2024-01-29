@@ -283,3 +283,4 @@ payload:
   - 'h5hosting-dre.dbankcdn.com'
   - 'h5hosting.dbankcdn.com'
   - 'store-dre.hispace.dbankcloud.com'
+  - 'omgup*.xiaojukeji.com'
