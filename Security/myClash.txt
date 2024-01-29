@@ -288,7 +288,6 @@ payload:
   - 'h5hosting.dbankcdn.com'
   - 'store-dre.hispace.dbankcloud.com'
   - 'store-drcn.hispace.dbankcloud.cn'
-  - 'store-drcn.hispace.dbankcloud.com'
   - 'omgup1.xiaojukeji.com'
   - 'omgup2.xiaojukeji.com'
   - 'omgup3.xiaojukeji.com'
