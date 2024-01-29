@@ -275,3 +275,4 @@ payload:
   - 'amdc-sibling.alipay.com.cn'
   - 'dinamicx.alibabausercontent.com'
   - 'userk-drcn.cloud.dbankcloud.cn'
+  - '+.cdnhwc*.com'
