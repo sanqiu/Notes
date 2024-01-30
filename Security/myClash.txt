@@ -80,7 +80,7 @@ payload:
   - 'dnkeeper.dbankcloud.com'
   - 'dnkeeper.hicloud.com'
   - 'dnkeeper.platform.dbankcloud.cn'
-  - 'dnkeeper.platform.dbankcloud.cn'
+  - 'dnkeeper.platform.dbankcloud.com'
   - 'docerad.wps.cn'
   - 'dzen.ru'
   - 'eu.mclean.50union.com'
