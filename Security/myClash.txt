@@ -291,3 +291,4 @@ payload:
   - 'omgup4.xiaojukeji.com'
   - 'omgup5.xiaojukeji.com'
   - 'hwcard.bizport.cn'
+  - 'graph.facebook.com'
