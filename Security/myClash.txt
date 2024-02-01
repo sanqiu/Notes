@@ -241,8 +241,6 @@ payload:
   - 'vip-bgp-umdc.alibabachengdun.com'
   - 'vipapi.wps.cn'
   - 'weather-community-drcn.weather.dbankcloud.cn'
-  - 'weather-drcn.music.dbankcloud.cn'
-  - 'weather-dre.music.hicloud.com'
   - 'wxsnsdythumb.wxs.qq.com'
   - 'yun-hl.3g.qq.com'
   - 'httpdns-sc.aliyuncs.com'
