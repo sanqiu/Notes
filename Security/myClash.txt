@@ -238,7 +238,6 @@ payload:
   - 'upfile7.hicloud.com'
   - 'userlink.alicdn.com'
   - 'vasvip-pub.wpscdn.cn'
-  - 'videocontent-drcn.himovie.dbankcloud.cn'
   - 'vip-bgp-umdc.alibabachengdun.com'
   - 'vipapi.wps.cn'
   - 'weather-community-drcn.weather.dbankcloud.cn'
