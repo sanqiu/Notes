@@ -74,6 +74,8 @@ payload:
   - 'grs.hicloud.com'
   - 'grs.platform.dbankcloud.ru'
   - 'guide-acs4miniapp-inner.m.taobao.com'
+  - 'xpgw-tel-xcdn.youku.com'
+  - 'adashx.ut.dingtalk.com'
   - 'h-adashx-internal.ut.taobao.com.gds.alibabadns.com'
   - 'h-adashx.dingtalkapps.com'
   - 'h-adashx.ut.cainiao.com'
