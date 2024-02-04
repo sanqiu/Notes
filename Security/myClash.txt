@@ -200,6 +200,7 @@ payload:
   - '+.game.dbankcloud.com'
   - 'suggest.sso.dzen.ru'
   - 'dns.weixin.qq.com'
+  - 'dns.weixin.qq.com.cn'
   - 'amdc-sibling.alipay.com.cn'
   - 'dinamicx.alibabausercontent.com'
   - 'userk-drcn.cloud.dbankcloud.cn'
