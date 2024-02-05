@@ -227,3 +227,4 @@ payload:
   - 'voipfinderp2pliveplay.wxqcloud.qq.com'
   - 'voipfinderrdsliveplay3.wxqcloud.qq.com'
   - 'voipfindereventsliveplay.wxqcloud.qq.com'
+  - '+.tingmall.com'
