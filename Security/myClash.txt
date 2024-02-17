@@ -226,3 +226,4 @@ payload:
   - 'voipfindereventsliveplay.wxqcloud.qq.com'
   - 'baichuan-sdk.alicdn.com'
   - 'weather-drcn.music.dbankcloud.cn'
+  - '+.cup.com.cn'
