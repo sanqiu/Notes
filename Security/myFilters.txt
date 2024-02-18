@@ -22,6 +22,7 @@ m.dict.cn###dbann
 ##div.mod-idc
 m.taobao.com###root .recommend-container,#tcodeSideBar,body > button,.moss-wrapper,body > div:nth-child(11),.topbar-ld,.page-recommend,#recommend-wrapper.rax-view-v2,.banner-wrapper,.recommend-placeholder
 m.taobao.com###root > div > div.rax-view-v2.call-app,body > div:nth-child(20)
+m.tmall.com###tcodeSideBar
 zhihu.com##div.MobileAppHeader-inner > div > button
 zhihu.com##div.KfeCollection-VipRecommendCard
 
