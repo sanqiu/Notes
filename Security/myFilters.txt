@@ -21,7 +21,7 @@ m.dict.cn###dbann
 ##.MODBanana
 ##div.mod-idc
 m.taobao.com###root .recommend-container,#tcodeSideBar,body > button,.moss-wrapper,body > div:nth-child(11),.topbar-ld,.page-recommend,#recommend-wrapper.rax-view-v2,.banner-wrapper,.recommend-placeholder
-m.taobao.com###root > div > div.rax-view-v2.call-app,body > div:nth-child(19)
+m.taobao.com###root > div > div.rax-view-v2.call-app,body > div:nth-child(20)
 zhihu.com##div.MobileAppHeader-inner > div > button
 zhihu.com##div.KfeCollection-VipRecommendCard
 
