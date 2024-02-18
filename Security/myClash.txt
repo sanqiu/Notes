@@ -9,6 +9,7 @@ payload:
   - 'adstats.tencentmusic.com'
   - 'adx-drcn.op.dbankcloud.cn'
   - 'adx-dre.op.dbankcloud.com'
+  - 'audid-api.taobao.com'
   - '+.amdc.alipay.com'
   - '+.amdc.m.taobao.com'
   - '+.amdcopen.m.umeng.com'
