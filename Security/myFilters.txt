@@ -16,6 +16,16 @@ qcc.com##.company-banner
 qcc.com##.vip-tag.app-header-drop
 ipchaxun.com##.MODBanana
 slashdot.org##.ad-on
-taobao.com##.recommend-container
-taobao.com###tcodeSideBar
-taobao.com##body > button
+www.view-page-source.com###about,#posts,#testimonials
+www.bangongziyuan.com##.vip.vvv
+##.guide-video.bg-white
+m.dict.cn###dbann
+##.MODBanana
+##div.mod-idc
+m.taobao.com###root .recommend-container
+m.taobao.com###tcodeSideBar
+m.taobao.com##body > button
+m.taobao.com##.moss-wrapper
+m.taobao.com##body > div:nth-child(11)
+m.taobao.com#$#body {padding-top: 0 !important;}
+m.taobao.com##.topbar-ld
