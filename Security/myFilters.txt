@@ -20,12 +20,7 @@ www.bangongziyuan.com##.vip.vvv
 m.dict.cn###dbann
 ##.MODBanana
 ##div.mod-idc
-m.taobao.com###root .recommend-container
-m.taobao.com###tcodeSideBar
-m.taobao.com##body > button
-m.taobao.com##.moss-wrapper
-m.taobao.com##body > div:nth-child(11)
-m.taobao.com##.topbar-ld
+m.taobao.com###root .recommend-container,#tcodeSideBar,body > button,.moss-wrapper,body > div:nth-child(11),.topbar-ld,.page-recommend
 
 !!Elements modifiers
 m.taobao.com#$#body {padding-top: 0 !important;}
