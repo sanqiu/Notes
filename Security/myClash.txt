@@ -227,7 +227,6 @@ payload:
   - 'voipfinderrdsliveplay3.wxqcloud.qq.com'
   - 'voipfindereventsliveplay.wxqcloud.qq.com'
   - 'baichuan-sdk.alicdn.com'
-  - 'weather-drcn.music.dbankcloud.cn'
   - 'ark-handler-bottom.m.taobao.com'
   - 'cmgate.vip.qq.com'
   - 'dualstack-a.apilocate.amap.com'
