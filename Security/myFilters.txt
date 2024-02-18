@@ -7,8 +7,6 @@
 ||skeycig.com^$media,domain=skeycig.com
 ||nyt.com^$media,third-party
 
-
-
 !!Elements filters
 guancha.cn##.go-to-app
 dict.cn###dbann
@@ -27,5 +25,7 @@ m.taobao.com###tcodeSideBar
 m.taobao.com##body > button
 m.taobao.com##.moss-wrapper
 m.taobao.com##body > div:nth-child(11)
-m.taobao.com#$#body {padding-top: 0 !important;}
 m.taobao.com##.topbar-ld
+
+!!Elements modifiers
+m.taobao.com#$#body {padding-top: 0 !important;}
