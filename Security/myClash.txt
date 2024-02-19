@@ -231,3 +231,5 @@ payload:
   - 'cmgate.vip.qq.com'
   - 'dualstack-a.apilocate.amap.com'
   - 'supl.platform.dbankcloud.cn'
+  - 'supl.bd-caict.com' 
+  - 'hwpub-s01-drcn.cloud.dbankcloud.cn'
