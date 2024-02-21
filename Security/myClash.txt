@@ -171,7 +171,7 @@ payload:
   - 'static-sg.winudf.com'
   - 'stats.pusher.com'
   - 'suggest.sso.dzen.ru'
-  - 'tapi.pureapk.com'
+#  - 'tapi.pureapk.com'
 #  - 'terms-dre.platform.dbankcloud.cn'
   - 'tongji.dcloud.io'
 #  - 'tsms-dre.security.dbankcloud.cn'
