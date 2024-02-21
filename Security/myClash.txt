@@ -234,3 +234,11 @@ payload:
   - 'supl.platform.dbankcloud.cn'
   - 'supl.bd-caict.com' 
   - 'hwpub-s01-drcn.cloud.dbankcloud.cn'
+  - '+.firwinds.site'
+  - '+.bytegle.site'
+  - '+.img-static.tech
+  - '+.haobird.site'
+  - '+.dollphoin.site'
+  - '+.bigo.sg'
+  - '+.myadssupport.com'
+  - '+.upload.app'
