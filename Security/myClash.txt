@@ -241,4 +241,4 @@ payload:
   - '+.dollphoin.site'
   - '+.bigo.sg'
   - '+.myadssupport.com'
-  - '+.upload.app'
+#  - '+.upload.app'
