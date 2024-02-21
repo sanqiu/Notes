@@ -131,7 +131,7 @@ payload:
   - 'mamasearchad.cloudvideocdn.taobao.com'
   - 'mamasearchad.cloudvideocdn.taobao.com.w.cdngslb.com'
   - 'metrics-dra.dt.hicloud.com'
-  - 'metrics-drcn.dt.dbankcloud.cn'
+#  - 'metrics-drcn.dt.dbankcloud.cn'
   - 'metrics-drcn.dt.hicloud.com'
   - 'metrics.data.hicloud.com'
   - 'metrics.dt.dbankcloud.cn'
