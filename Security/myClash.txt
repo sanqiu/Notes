@@ -25,7 +25,7 @@ payload:
   - 'browsercfg-drcn.cloud.dbankcloud.cn'
   - 'browserr-drcn.dbankcdn.cn'
   - 'campaign-drcn.dbankcdn.cn'
-  - 'ccpce-cn.consumer.huawei.com'
+#  - 'ccpce-cn.consumer.huawei.com'
   - 'upfile7.hicloud.com'
 #  - 'contentcenter-drcn.dbankcdn.com'
 #  - 'contentcenter-drcn.dbankcdn.cn'
