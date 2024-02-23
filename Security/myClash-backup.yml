@@ -4,6 +4,7 @@ payload:
   - 'challenges.cloudflare.com'
   - '+.linkedin.com'
   - '+.bing.com'
+  - '+.google.com'
   - '+.360totalsecurity.com'
   - '+.msn.com'
   - '+.quora.com'
