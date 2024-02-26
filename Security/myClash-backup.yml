@@ -1,5 +1,6 @@
 payload:
   - '+.openai.com'
+  - '+.chatgpt.com'
   - '+.oaistatic.com'  
   - 'challenges.cloudflare.com'
   - '+.linkedin.com'
