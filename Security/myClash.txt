@@ -53,7 +53,7 @@ payload:
 #  - 'store-drcn.hispace.dbankcloud.cn'
   - 'terms-drcn.platform.dbankcloud.cn'
   - 'terms1.hicloud.com'
-  - 'tsms-drcn.security.dbankcloud.cn'
+#  - 'tsms-drcn.security.dbankcloud.cn'
   - 'docerad.wps.cn'
   - 'dzen.ru'
   - 'eu.mclean.50union.com'
