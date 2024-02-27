@@ -3,6 +3,7 @@ payload:
   - '+.msn.cn'
   - '+.qinlinad.com'
   - 'achievement-drcn.things.hicloud.com'
+  - 'achievement.dbankcloud.cn'
   - 'ad.12306.cn'
   - 'ad.docer.wps.cn'
   - 'ads-shopping.shouqianba.com'
