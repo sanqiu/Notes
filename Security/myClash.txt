@@ -17,7 +17,7 @@ payload:
   - 'guide-acs.m.taobao.com.gds.alibabadns.com'
   - 'unitbrain-guide-unit-v6-pub.m.taobao.com.gds.alibabadns.com'
   - 'unitbrain-buyer-v6-pub.m.taobao.com.gds.alibabadns.com'
-  - '+.guide-acs.m.taobao.com'
+#  - '+.guide-acs.m.taobao.com'
   - '+.trade-acs.m.taobao.com'
   - 'api-drcn.theme.dbankcloud.cn'
   - 'apppromotion-drcn.dbankcdn.cn'
