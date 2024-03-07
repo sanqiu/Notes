@@ -197,7 +197,7 @@ payload:
   - 'tlog-emas.aliyuncs.com'
   - 'cloudgame-channel2.aliyuncs.com'
   - 'mum.hzchengdun.com'
-  - 'report.dingtalk.com'
+#  - 'report.dingtalk.com'
   - '+.log.aliyuncs.com'
   - '+.alimmdn.com'
   - '+.tanx.com'
