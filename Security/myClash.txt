@@ -22,6 +22,7 @@ payload:
 #  - 'api-drcn.theme.dbankcloud.cn'
   - 'apppromotion-drcn.dbankcdn.cn'
   - 'beacon-api.aliyuncs.com'
+  - 'appimg.dbankcdn.com'
 #  - 'browsercfg-drcn.cloud.dbankcloud.cn'
 #  - 'browserr-drcn.dbankcdn.cn'
 #  - 'campaign-drcn.dbankcdn.cn'
