@@ -252,6 +252,7 @@ payload:
   - '+.haobird.site'
   - '+.dollphoin.site'
   - '+.bigo.sg'
+  - 'tapi.apkpure.net'
   - '+.myadssupport.com'
   - '+.getui.net'
   - '+.gepush.com'
