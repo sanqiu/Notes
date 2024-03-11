@@ -96,6 +96,8 @@ payload:
   - 'h-adashx.ut.taobao.com'
   - 'h-adashx4bc.ut.taobao.com'
   - 'h-adashx.ut.taobao.com.gds.alibabadns.com'
+  - 'adashxgc.ut.taobao.com'
+  - 'h-adashx4bc.ut.taobao.com'
   - 'adx-open-service.youku.com'
 #  - 'beacon-api.aliyuncs.comadash-emas.cn-hangzhou.aliyuncs.com'
 #  - 'hag-drcn.op.hicloud.com'
