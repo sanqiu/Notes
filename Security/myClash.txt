@@ -245,6 +245,7 @@ payload:
   - '+.rayjump.com'
   - '+.gov-static.tech'
   - 'r.apkpure.net'
+  - 'cdnpure.com'
   - '+.sve.cc'
   - '+.kickoffo.site'
   - '+.bytegle.site'
