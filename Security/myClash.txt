@@ -263,3 +263,5 @@ payload:
   - 'xpgw-tel-xcdn.cp31.ott.cibntv.net'
   - 'xpis-tel-xcdn.cp31.ott.cibntv.net'
   - 'xpis-xcdn.youku.com'
+  - 'snsvideo.c2c.wechat.com'
+  - '+.uf-100.com'
