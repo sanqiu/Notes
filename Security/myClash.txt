@@ -176,7 +176,7 @@ payload:
   - 'servicesupport.hicloud.com'
   - 'startup.mobile.yandex.net'
   - 'stat.gspaceteam.com'
-  - 'static-sg.winudf.com'
+#  - 'static-sg.winudf.com'
   - 'stats.pusher.com'
   - 'suggest.sso.dzen.ru'
   - '+.pureapk.com'
