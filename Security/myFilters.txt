@@ -26,6 +26,7 @@ zhihu.com##div.MobileAppHeader-inner > div > button
 zhihu.com##div.KfeCollection-VipRecommendCard
 huxiu.com##.bottom-open-app-btn,.js-bottom-open-app-btn,.js-top-guide,.js-content-open-app,.js-click-log-ele,.js-click-log-href-sign,.qr_code_pc,.js-top-fixed
 apkpure.net##.right .search-box,.right .right_apkpure,.slide-banner,.quick-access-new,.module.popular-games,.module.preregister,.module.game-on-sale,.module.latest-update-games,.hot-search-games-24h
+bilibili.com##.launch-app-btn.m-nav-openapp,.launch-app-btn.home-float-openapp
 
 !!Elements modifiers
 m.taobao.com#$#body {padding-top: 0 !important;}
