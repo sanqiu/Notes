@@ -265,3 +265,4 @@ payload:
   - 'xpis-xcdn.youku.com'
   - 'snsvideo.c2c.wechat.com'
   - '+.uf-100.com'
+  - 'youngle.tech'
