@@ -166,7 +166,7 @@ payload:
   - 'report.apkpure.net'
   - 'rewardsplatform.microsoft.com'
   - 'rmonitor.qq.com'
-#  - 'rms-drcn.platform.dbankcloud.cn'
+  - 'rms-drcn.platform.dbankcloud.cn'
   - 'sba.yandex.net'
   - 'sdkserver-drcn.op.hicloud.com'
   - 'sdkserver-drcn.op.dbankcloud.cn'
