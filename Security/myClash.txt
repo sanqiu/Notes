@@ -272,7 +272,7 @@ payload:
   - 'wosai-open.oss-cn-hangzhou.aliyuncs.com'
   - 'wxsnsdy.wxs.qq.com'
   - 'tracking.wosai.cn'
-  - '+.huanxiongdd.com'
+#  - '+.huanxiongdd.com'
   - '+.shujupie.com'
   - 'log.weixin.qq.com'
   - 'log.wechatpay.cn'
