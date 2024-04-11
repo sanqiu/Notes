@@ -279,3 +279,8 @@ payload:
   - 'log.weixin.qq.com'
   - 'log.wechatpay.cn'
   - '+.dreport.meituan.net'
+  - '+.unityads.unitychina.cn'
+  - '+.chinaliftoff-creatives.io'
+  - '+.chinaliftoff.io'
+  - '+.impression-east.chinaliftoff.io'
+  - '+.firebaselogging-pa.googleapis.com'
