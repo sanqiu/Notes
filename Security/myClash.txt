@@ -1,4 +1,4 @@
-4payload:  
+payload:  
   - '+.adobe.io'
   - '+.msn.cn'
   - '+.qinlinad.com'
