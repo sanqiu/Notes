@@ -161,7 +161,6 @@
 #  - 'metrics3.data.hicloud.com'
 #  - 'metrics4.data.hicloud.com'
 #  - 'metrics5.data.hicloud.com'
-  - 'mum.alibabachengdun.com'
   - 'open.toutiao.com'
   - 'pgdt.ugdtimg.com'
   - 'poplayer.template.alibaba.com'
