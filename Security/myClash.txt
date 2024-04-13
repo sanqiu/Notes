@@ -1,4 +1,4 @@
-payload:  
+4payload:  
   - '+.adobe.io'
   - '+.msn.cn'
   - '+.qinlinad.com'
@@ -35,8 +35,10 @@ payload:
 #  - 'upfile7.hicloud.com'
 #  - 'contentcenter-drcn.dbankcdn.com'
 #  - 'contentcenter-drcn.dbankcdn.cn'
-  - 'cdn-mum.alibabachengdun.com'
-  - 'cdn-mum.alibabachengdun.com.w.alikunlun.com'
+  - '+.alibabachengdun.com'
+  - '+.hzchengdun.com'
+  - '+.alibabachengdun.net'
+  - '+.hzchengdun.net'
 #  - 'conf-drcn.cloud.dbankcloud.cn'
 #  - 'configserver.hicloud.com'
 #  - 'configserver-drcn.platform.hicloud.com'
