@@ -292,3 +292,7 @@ payload:
   - '+.impression-east.chinaliftoff.io'
   - '+.firebaselogging-pa.googleapis.com'
   - '+.inmense.site'
+  - 'edgegw-infer.alipay.com'
+  - 'gateway-mini.shouqianba.com'
+  - 'prewxacode.wxqcloud.qq.com.cn'
+  - 'appcfg.v.qq.com'
