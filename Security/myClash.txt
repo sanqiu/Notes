@@ -173,7 +173,7 @@ payload:
   - 'rewardsplatform.microsoft.com'
   - 'rmonitor.qq.com'
   - 'rms-drcn.platform.dbankcloud.cn'
-#  - 'sba.yandex.net'
+  - 'sba.yandex.net'
   - 'sdkserver-drcn.op.hicloud.com'
   - 'sdkserver-drcn.op.dbankcloud.cn'
   - 'sdkserver.op.hicloud.com'
