@@ -8,7 +8,7 @@
 ||nyt.com^$media,third-party
 
 !!Elements filters
-guancha.cn##.go-to-app,.g_header44
+guancha.cn##.go-to-app,.g_header44,.g_swiper_container
 dict.cn###dbann
 qcc.com##.company-banner
 qcc.com##.vip-tag.app-header-drop
