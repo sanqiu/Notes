@@ -293,3 +293,8 @@ payload:
   - '+.firebaselogging-pa.googleapis.com'
   - '+.inmense.site'
   - 'appcfg.v.qq.com'
+  - '+.beizi.biz'
+  - '+.g9hc4.cn'
+  - '+.xdplt.com'
+  - '+.360os.com'
+  - '+.duapps.com'
