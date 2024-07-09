@@ -19,6 +19,7 @@ www.bangongziyuan.com##.vip.vvv
 m.dict.cn###dbann
 ##.MODBanana
 ##div.mod-idc
+##.floadAd
 m.taobao.com###root .recommend-container,#tcodeSideBar,body > button,.moss-wrapper,body > div:nth-child(11),.topbar-ld,.page-recommend,#recommend-wrapper.rax-view-v2,.banner-wrapper,.recommend-placeholder
 m.taobao.com###root > div > div.rax-view-v2.call-app,body > div:nth-child(20),div.rax-view-v2.bottombar > div.rax-view-v2.mf-app
 m.tmall.com###tcodeSideBar
