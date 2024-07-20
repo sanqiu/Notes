@@ -29,6 +29,9 @@ huxiu.com##.bottom-open-app-btn,.js-bottom-open-app-btn,.js-top-guide,.js-conten
 apkpure.net##.right .search-box,.right .right_apkpure,.slide-banner,.quick-access-new,.module.popular-games,.module.preregister,.module.game-on-sale,.module.latest-update-games,.hot-search-games-24h
 bilibili.com##.launch-app-btn.m-nav-openapp,.launch-app-btn.home-float-openapp
 similarweb.com###TrialBanner
+###articleAllsee
+##.groom-read
+souhu.com###right-side-bar, .hot-article
 
 !!Elements modifiers
 m.taobao.com#$#body {padding-top: 0 !important;}
