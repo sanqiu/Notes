@@ -31,7 +31,7 @@ bilibili.com##.launch-app-btn.m-nav-openapp,.launch-app-btn.home-float-openapp
 similarweb.com###TrialBanner
 ###articleAllsee
 ##.groom-read
-souhu.com###right-side-bar, .hot-article
+sohu.com###right-side-bar, .hot-article
 
 !!Elements modifiers
 m.taobao.com#$#body {padding-top: 0 !important;}
