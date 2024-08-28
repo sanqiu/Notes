@@ -26,3 +26,7 @@ payload:
   - '+.edgeassetservice.azureedge.net'
   - '+.edge.skype.com'
   - 'msedge.api.cdp.microsoft.com'
+  - '+.whatsapp.com'
+  - '+.whatsapp.net'
+  - '+.skype.com'
+  - '+.skypeassets.com'
