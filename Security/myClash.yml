@@ -63,7 +63,7 @@ payload:
 #  - DOMAIN,store-drcn.hispace.dbankcloud.cn
 #  - DOMAIN,terms-drcn.platform.dbankcloud.cn
 #  - DOMAIN,terms1.hicloud.com
-  - DOMAIN,tsms-drcn.security.dbankcloud.cn
+#  - DOMAIN,tsms-drcn.security.dbankcloud.cn
   - DOMAIN,docerad.wps.cn
   - DOMAIN-SUFFIX,dzen.ru
   - DOMAIN,eu.mclean.50union.com
