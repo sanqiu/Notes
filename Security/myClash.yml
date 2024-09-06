@@ -297,6 +297,7 @@ payload:
   - DOMAIN-SUFFIX,xdplt.com
   - DOMAIN-SUFFIX,360os.com
   - DOMAIN-SUFFIX,duapps.com
+  - DOMAIN-SUFFIX,tec73.com
 ##domain-keyword
   - DOMAIN-KEYWORD,httpdns
   - DOMAIN-KEYWORD,adash
