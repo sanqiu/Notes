@@ -203,7 +203,7 @@ payload:
   - DOMAIN,cloudgame-channel2.aliyuncs.com
   - DOMAIN,mum.hzchengdun.com
 #  - DOMAIN,report.dingtalk.com
-  - DOMAIN-SUFFIX,log.aliyuncs.com
+#  - DOMAIN-SUFFIX,log.aliyuncs.com
   - DOMAIN-SUFFIX,log.mmstat.com
   - DOMAIN-SUFFIX,alimmdn.com
   - DOMAIN-SUFFIX,tanx.com
