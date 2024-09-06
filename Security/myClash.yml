@@ -143,8 +143,6 @@ payload:
   - DOMAIN,loggw-extiny.alipay.com
   - DOMAIN,loggw-ex.alipay.com
   - DOMAIN,log-sdk.clickwifi.net
-  - DOMAIN,mamasearchad.cloudvideocdn.taobao.com
-  - DOMAIN,mamasearchad.cloudvideocdn.taobao.com.w.cdngslb.com
 #  - DOMAIN,h5hosting-drcn.dbankcdn.cn
 #  - DOMAIN,h5hosting.dbankcdn.com
 #  - DOMAIN,h5hosting.dbankcdn.cn
@@ -302,3 +300,5 @@ payload:
   - DOMAIN-KEYWORD,httpdns
   - DOMAIN-KEYWORD,adash
   - DOMAIN-KEYWORD,adx-
+  - DOMAIN-KEYWORD,shoppingcampaigns
+  - DOMAIN-KEYWORD,mamasearchad
