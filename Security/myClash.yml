@@ -307,7 +307,7 @@ payload:
   - DOMAIN-SUFFIX,stream.snssdk.com
   - DOMAIN-SUFFIX,jiakao-activity.kakamobi.cn
   - DOMAIN-SUFFIX,panda.kakamobi.cn
-  - DOMAIN-SUFFIX,scs.kakamobi.cn
+#  - DOMAIN-SUFFIX,scs.kakamobi.cn
   - DOMAIN-SUFFIX,swallow.kakamobi.cn
   - DOMAIN-SUFFIX,monkey.kakamobi.cn
   - DOMAIN-SUFFIX,tpc-info.kakamobi.cn
