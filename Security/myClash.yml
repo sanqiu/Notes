@@ -306,20 +306,20 @@ payload:
   - DOMAIN-SUFFIX,telepathy.kakamobi.com
   - DOMAIN-SUFFIX,stream.snssdk.com
   - DOMAIN-SUFFIX,jiakao-activity.kakamobi.cn
-  - DOMAIN-SUFFIX,panda.kakamobi.cn
+#  - DOMAIN-SUFFIX,panda.kakamobi.cn
 #  - DOMAIN-SUFFIX,scs.kakamobi.cn
-  - DOMAIN-SUFFIX,swallow.kakamobi.cn
-  - DOMAIN-SUFFIX,monkey.kakamobi.cn
+#  - DOMAIN-SUFFIX,swallow.kakamobi.cn
+#  - DOMAIN-SUFFIX,monkey.kakamobi.cn
   - DOMAIN-SUFFIX,tpc-info.kakamobi.cn
-  - DOMAIN-SUFFIX,squirrel.kakamobi.cn
+#  - DOMAIN-SUFFIX,squirrel.kakamobi.cn
   - DOMAIN-SUFFIX,smart-789.kakamobi.cn
   - DOMAIN-SUFFIX,789.kakamobi.cn
-  - DOMAIN-SUFFIX,cheetah.mucang.cn
-  - DOMAIN-SUFFIX,task-vega.kakamobi.cn
-  - DOMAIN-SUFFIX,pony.kakamobi.cn
-  - DOMAIN-SUFFIX,slave0-mercury.kakamobi.cn
+#  - DOMAIN-SUFFIX,cheetah.mucang.cn
+#  - DOMAIN-SUFFIX,task-vega.kakamobi.cn
+#  - DOMAIN-SUFFIX,pony.kakamobi.cn
+#  - DOMAIN-SUFFIX,slave0-mercury.kakamobi.cn
   - DOMAIN-SUFFIX,laofuzi.kakamobi.com
-  - DOMAIN-SUFFIX,jk-rights.kakamobi.cn
+#  - DOMAIN-SUFFIX,jk-rights.kakamobi.cn
   - DOMAIN-SUFFIX,sirius.image.mucang.cn
   - DOMAIN-SUFFIX,sirius.mc-cdn.cn
   - DOMAIN-SUFFIX,mqtt-cn-tk23rgon501.mqtt.aliyuncs.com
