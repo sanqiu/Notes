@@ -297,36 +297,36 @@ payload:
   - DOMAIN-SUFFIX,duapps.com
   - DOMAIN-SUFFIX,tec73.com
   - DOMAIN-SUFFIX,cheyouquan.kakamobi.com
-  - DOMAIN-SUFFIX,config.kakamobi.com
+#  - DOMAIN-SUFFIX,config.kakamobi.com
   - DOMAIN-SUFFIX,dypnsapi.aliyuncs.com
   - DOMAIN-SUFFIX,license.vod2.myqcloud.com
   - DOMAIN-SUFFIX,maiche.com
-  - DOMAIN-SUFFIX,oort-shipper.kakamobi.cn
+#  - DOMAIN-SUFFIX,oort-shipper.kakamobi.cn
   - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com
-  - DOMAIN-SUFFIX,telepathy.kakamobi.com
+#  - DOMAIN-SUFFIX,telepathy.kakamobi.com
   - DOMAIN-SUFFIX,stream.snssdk.com
   - DOMAIN-SUFFIX,jiakao-activity.kakamobi.cn
 #  - DOMAIN-SUFFIX,panda.kakamobi.cn
 #  - DOMAIN-SUFFIX,scs.kakamobi.cn
 #  - DOMAIN-SUFFIX,swallow.kakamobi.cn
 #  - DOMAIN-SUFFIX,monkey.kakamobi.cn
-  - DOMAIN-SUFFIX,tpc-info.kakamobi.cn
+#  - DOMAIN-SUFFIX,tpc-info.kakamobi.cn
 #  - DOMAIN-SUFFIX,squirrel.kakamobi.cn
-  - DOMAIN-SUFFIX,smart-789.kakamobi.cn
-  - DOMAIN-SUFFIX,789.kakamobi.cn
+#  - DOMAIN-SUFFIX,smart-789.kakamobi.cn
+#  - DOMAIN-SUFFIX,789.kakamobi.cn
 #  - DOMAIN-SUFFIX,cheetah.mucang.cn
 #  - DOMAIN-SUFFIX,task-vega.kakamobi.cn
 #  - DOMAIN-SUFFIX,pony.kakamobi.cn
 #  - DOMAIN-SUFFIX,slave0-mercury.kakamobi.cn
-  - DOMAIN-SUFFIX,laofuzi.kakamobi.com
+#  - DOMAIN-SUFFIX,laofuzi.kakamobi.com
 #  - DOMAIN-SUFFIX,jk-rights.kakamobi.cn
-  - DOMAIN-SUFFIX,sirius.image.mucang.cn
-  - DOMAIN-SUFFIX,sirius.mc-cdn.cn
+#  - DOMAIN-SUFFIX,sirius.image.mucang.cn
+#  - DOMAIN-SUFFIX,sirius.mc-cdn.cn
   - DOMAIN-SUFFIX,mqtt-cn-tk23rgon501.mqtt.aliyuncs.com
   - DOMAIN-SUFFIX,apmplus.volces.com
   - DOMAIN-SUFFIX,tnc3-bjlgy.zijieapi.com
   - DOMAIN-SUFFIX,hmma.baidu.com
-  - DOMAIN-SUFFIX,share-m.kakamobi.com
+#  - DOMAIN-SUFFIX,share-m.kakamobi.com
 ##domain-keyword
   - DOMAIN-KEYWORD,httpdns
   - DOMAIN-KEYWORD,adash
