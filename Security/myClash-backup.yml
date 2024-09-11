@@ -6,8 +6,6 @@ payload:
   - 'challenges.cloudflare.com'
   - '+.linkedin.com'
   - '+.360totalsecurity.com'
-  - '+.quora.com'
-  - '+.quoracdn.com'
   - '+.linkedin.com'
   - '+.cnbeta.com.tw'
   - '+.cnbeta.com'
