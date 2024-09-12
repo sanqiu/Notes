@@ -278,6 +278,7 @@ payload:
   - DOMAIN,wosai-open.oss-cn-hangzhou.aliyuncs.com
   - DOMAIN,wxsnsdy.wxs.qq.com
   - DOMAIN,tracking.wosai.cn
+  - DOMAIN,analysis.gboxlab.com
 #  - DOMAIN-SUFFIX,huanxiongdd.com
   - DOMAIN-SUFFIX,shujupie.com
   - DOMAIN,log.weixin.qq.com
