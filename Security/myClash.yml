@@ -302,7 +302,8 @@ payload:
   - DOMAIN-SUFFIX,dypnsapi.aliyuncs.com
   - DOMAIN-SUFFIX,license.vod2.myqcloud.com
   - DOMAIN-SUFFIX,maiche.com
-#  - DOMAIN-SUFFIX,oort-shipper.kakamobi.cn
+  - DOMAIN-SUFFIX,oort-shipper.kakamobi.cn
+  - DOMAIN-SUFFIX,adukwai.com
   - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com
 #  - DOMAIN-SUFFIX,telepathy.kakamobi.com
   - DOMAIN-SUFFIX,stream.snssdk.com
