@@ -329,6 +329,9 @@ payload:
   - DOMAIN-SUFFIX,tnc3-bjlgy.zijieapi.com
   - DOMAIN-SUFFIX,hmma.baidu.com
 #  - DOMAIN-SUFFIX,share-m.kakamobi.com
+  - DOMAIN-SUFFIX,gdt.qq.com
+  - DOMAIN-SUFFIX,mi.gdt.qq.com
+  - DOMAIN-SUFFIX,prewxacode.wxqcloud.qq.com.cn
 ##domain-keyword
   - DOMAIN-KEYWORD,httpdns
   - DOMAIN-KEYWORD,adash
