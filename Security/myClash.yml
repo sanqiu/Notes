@@ -125,6 +125,20 @@ payload:
   - DOMAIN,httpdns.c.cdnhwc2.com
   - DOMAIN,httpdns.pro
   - DOMAIN,kuaishou.httpdns.pro
+  - DOMAIN-SUFFIX,open.e.kuaishou.com
+  - DOMAIN-SUFFIX,lf-cdn-tos.bytescm.com  
+  - DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com  
+  - DOMAIN-SUFFIX,ecom.pangolin-sdk-toutiao.com  
+  - DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao-b.com  
+  - DOMAIN-SUFFIX,toblog.ctobsnssdk.com 
+  - DOMAIN-SUFFIX,toblog.volceapplog.com  
+  - DOMAIN-SUFFIX,klink.volceapplog.com  
+  - DOMAIN-SUFFIX,gecko.snssdk.com  
+  - DOMAIN-SUFFIX,webcast-open.douyin.com  
+  - DOMAIN-SUFFIX,abtest.volceapplog.com  
+  - DOMAIN-SUFFIX,csj-sp.csjdeveloper.com  
+  - DOMAIN-SUFFIX,reward-api.csjplatform.com  
+  - DOMAIN-SUFFIX,sdk.e.qq.com  
   - DOMAIN,httpdns.yunxindns.com
   - DOMAIN,resolver.dingtalk.com
 #  - DOMAIN,hwa.his.huawei.com
@@ -298,19 +312,20 @@ payload:
   - DOMAIN-SUFFIX,duapps.com
   - DOMAIN-SUFFIX,tec73.com
   - DOMAIN-SUFFIX,cheyouquan.kakamobi.com
-#  - DOMAIN-SUFFIX,config.kakamobi.com
+  - DOMAIN-SUFFIX,config.kakamobi.com
   - DOMAIN-SUFFIX,dypnsapi.aliyuncs.com
   - DOMAIN-SUFFIX,license.vod2.myqcloud.com
   - DOMAIN-SUFFIX,maiche.com
   - DOMAIN-SUFFIX,oort-shipper.kakamobi.cn
   - DOMAIN-SUFFIX,adukwai.com
   - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com
+  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com
 #  - DOMAIN-SUFFIX,telepathy.kakamobi.com
   - DOMAIN-SUFFIX,stream.snssdk.com
   - DOMAIN-SUFFIX,jiakao-activity.kakamobi.cn
 #  - DOMAIN-SUFFIX,panda.kakamobi.cn
 #  - DOMAIN-SUFFIX,scs.kakamobi.cn
-#  - DOMAIN-SUFFIX,swallow.kakamobi.cn
+  - DOMAIN-SUFFIX,swallow.kakamobi.cn
 #  - DOMAIN-SUFFIX,monkey.kakamobi.cn
 #  - DOMAIN-SUFFIX,tpc-info.kakamobi.cn
 #  - DOMAIN-SUFFIX,squirrel.kakamobi.cn
@@ -321,7 +336,7 @@ payload:
 #  - DOMAIN-SUFFIX,pony.kakamobi.cn
 #  - DOMAIN-SUFFIX,slave0-mercury.kakamobi.cn
 #  - DOMAIN-SUFFIX,laofuzi.kakamobi.com
-#  - DOMAIN-SUFFIX,jk-rights.kakamobi.cn
+  - DOMAIN-SUFFIX,jk-rights.kakamobi.cn
 #  - DOMAIN-SUFFIX,sirius.image.mucang.cn
 #  - DOMAIN-SUFFIX,sirius.mc-cdn.cn
   - DOMAIN-SUFFIX,mqtt-cn-tk23rgon501.mqtt.aliyuncs.com
