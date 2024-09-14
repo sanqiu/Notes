@@ -172,7 +172,7 @@ payload:
 #  - DOMAIN,metrics3.data.hicloud.com
 #  - DOMAIN,metrics4.data.hicloud.com
 #  - DOMAIN,metrics5.data.hicloud.com
-   - DOMAIN,cpro.baidustatic.com
+  - DOMAIN,cpro.baidustatic.com
   - DOMAIN,open.toutiao.com
   - DOMAIN,pgdt.ugdtimg.com
   - DOMAIN,gdtimg.com  
