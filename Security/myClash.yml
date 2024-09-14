@@ -131,13 +131,10 @@ payload:
   - DOMAIN-SUFFIX,ecom.pangolin-sdk-toutiao.com  
   - DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao-b.com  
   - DOMAIN-SUFFIX,toblog.ctobsnssdk.com 
-  - DOMAIN-SUFFIX,toblog.volceapplog.com  
-  - DOMAIN-SUFFIX,tobapplog.volceapplog.com  
-  - DOMAIN-SUFFIX,klink.volceapplog.com  
-  - DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com  
+  - DOMAIN-SUFFIX,volceapplog.com  
+  - DOMAIN-SUFFIX,ctobsnssdk.com  
   - DOMAIN-SUFFIX,gecko.snssdk.com  
-  - DOMAIN-SUFFIX,webcast-open.douyin.com  
-  - DOMAIN-SUFFIX,abtest.volceapplog.com  
+  - DOMAIN-SUFFIX,webcast-open.douyin.com    
   - DOMAIN-SUFFIX,csj-sp.csjdeveloper.com  
   - DOMAIN-SUFFIX,reward-api.csjplatform.com  
   - DOMAIN-SUFFIX,sdk.e.qq.com  
@@ -175,8 +172,10 @@ payload:
 #  - DOMAIN,metrics3.data.hicloud.com
 #  - DOMAIN,metrics4.data.hicloud.com
 #  - DOMAIN,metrics5.data.hicloud.com
+   - DOMAIN,cpro.baidustatic.com
   - DOMAIN,open.toutiao.com
   - DOMAIN,pgdt.ugdtimg.com
+  - DOMAIN,gdtimg.com  
   - DOMAIN,poplayer.template.alibaba.com
   - DOMAIN,push.wps.cn
   - DOMAIN,pushtrs7.push.hicloud.com
@@ -322,13 +321,14 @@ payload:
   - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com
   - DOMAIN-SUFFIX,stream.snssdk.com
   - DOMAIN-SUFFIX,mqtt-cn-tk23rgon501.mqtt.aliyuncs.com
-  - DOMAIN-SUFFIX,apmplus.volces.com
+  - DOMAIN-SUFFIX,volces.com
   - DOMAIN-SUFFIX,tnc3-bjlgy.zijieapi.com
   - DOMAIN-SUFFIX,hmma.baidu.com
   - DOMAIN-SUFFIX,gdt.qq.com
   - DOMAIN-SUFFIX,mi.gdt.qq.com
   - DOMAIN-SUFFIX,android.bugly.qq.com  
   - DOMAIN-SUFFIX,prewxacode.wxqcloud.qq.com.cn
+  - DOMAIN-SUFFIX,beizi.biz
 ##domain-keyword
   - DOMAIN-KEYWORD,httpdns
   - DOMAIN-KEYWORD,adash
