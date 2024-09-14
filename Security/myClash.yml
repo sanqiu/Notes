@@ -116,7 +116,8 @@ payload:
   - DOMAIN,httpdns.host
   - DOMAIN,httpdns.platform.dbankcloud.com
   - DOMAIN,aliyunhttpdns.lmbang.com
-#  - DOMAIN,httpdns-sc.aliyuncs.com
+  - DOMAIN,httpdns-sc.aliyuncs.com
+  - DOMAIN,imarketing.aliyuncs.com
   - DOMAIN,httpdns.platform.dbankcloud.com
   - DOMAIN,httpdns-push.heytapmobile.com
 #  - DOMAIN,httpdns.alicdn.com
@@ -330,9 +331,12 @@ payload:
   - DOMAIN-SUFFIX,android.bugly.qq.com  
   - DOMAIN-SUFFIX,prewxacode.wxqcloud.qq.com.cn
   - DOMAIN-SUFFIX,beizi.biz
+  - DOMAIN-SUFFIX,mktm.jd.com
+  - DOMAIN-SUFFIX,dm.bytedance.com  
 ##domain-keyword
   - DOMAIN-KEYWORD,httpdns
   - DOMAIN-KEYWORD,adash
   - DOMAIN-KEYWORD,adx-
   - DOMAIN-KEYWORD,shoppingcampaigns
   - DOMAIN-KEYWORD,mamasearchad
+  - DOMAIN-KEYWORD,jiaxiao
