@@ -132,6 +132,7 @@ payload:
   - DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao-b.com  
   - DOMAIN-SUFFIX,toblog.ctobsnssdk.com 
   - DOMAIN-SUFFIX,volceapplog.com  
+  - DOMAIN-SUFFIX,volccdn.com  
   - DOMAIN-SUFFIX,ctobsnssdk.com  
   - DOMAIN-SUFFIX,gecko.snssdk.com  
   - DOMAIN-SUFFIX,webcast-open.douyin.com    
