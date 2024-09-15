@@ -315,7 +315,7 @@ payload:
   - DOMAIN-SUFFIX,duapps.com
   - DOMAIN-SUFFIX,tec73.com
   - DOMAIN-SUFFIX,cheyouquan.kakamobi.com
-  - DOMAIN-SUFFIX,laofuzi.kakamobi.com
+#  - DOMAIN-SUFFIX,laofuzi.kakamobi.com
   - DOMAIN-SUFFIX,dypnsapi.aliyuncs.com
   - DOMAIN-SUFFIX,license.vod2.myqcloud.com
   - DOMAIN-SUFFIX,maiche.com
