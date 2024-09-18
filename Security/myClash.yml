@@ -212,7 +212,7 @@ payload:
   - DOMAIN,umdc.hzchengdun.com
   - DOMAIN,umidiot.aliapp.org
   - DOMAIN,userlink.alicdn.com
-  - DOMAIN,vasvip-pub.wpscdn.cn
+#  - DOMAIN,vasvip-pub.wpscdn.cn
   - DOMAIN,vip-bgp-umdc.alibabachengdun.com
   - DOMAIN,weather-community-drcn.weather.dbankcloud.cn
   - DOMAIN,pageservice-drcn.weather.dbankcloud.cn
