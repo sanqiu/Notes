@@ -3,3 +3,6 @@ payload:
   - '+.accuweather.com'
   - '+.seogroup.club'
   - 'miao.baidu.com'
+##ExcludesfromAntiAd  
+  - 'gtms03.alicdn.com'
+  - 'gtms04.alicdn.com'
