@@ -140,6 +140,7 @@ payload:
   - DOMAIN-SUFFIX,csj-sp.csjdeveloper.com  
   - DOMAIN-SUFFIX,reward-api.csjplatform.com  
   - DOMAIN-SUFFIX,sdk.e.qq.com  
+  - DOMAIN-SUFFIX,corssdk.map.qq.com  
   - DOMAIN,httpdns.yunxindns.com
   - DOMAIN,resolver.dingtalk.com
 #  - DOMAIN,hwa.his.huawei.com
