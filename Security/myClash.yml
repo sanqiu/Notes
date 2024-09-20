@@ -302,7 +302,7 @@ payload:
   - DOMAIN-SUFFIX,dreport.meituan.net
   - DOMAIN-SUFFIX,s-gm.mmstat.com
   - DOMAIN-SUFFIX,api-unionid.meituan.com
-  - DOMAIN-SUFFIX,appsec-mobile.meituan.com
+#  - DOMAIN-SUFFIX,appsec-mobile.meituan.com
   - DOMAIN-SUFFIX,analytics.map.qq.com
 #  - DOMAIN-SUFFIX,s3plus.meituan.net
   - DOMAIN-SUFFIX,bike-exp.meituan.net
