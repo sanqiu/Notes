@@ -310,7 +310,7 @@ payload:
   - DOMAIN-SUFFIX,apimobile.meituan.com
 #  - DOMAIN-SUFFIX,mars.meituan.com
   - DOMAIN-SUFFIX,hreport.meituan.com
-  - DOMAIN-SUFFIX,catfront.dianping.com
+#  - DOMAIN-SUFFIX,catfront.dianping.com
   - DOMAIN-SUFFIX,unityads.unitychina.cn
   - DOMAIN-SUFFIX,chinaliftoff-creatives.io
   - DOMAIN-SUFFIX,chinaliftoff.io
