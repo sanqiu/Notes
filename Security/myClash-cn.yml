@@ -4,6 +4,7 @@ payload:
   - '+.seogroup.club'
   - 'miao.baidu.com'
   - '+.shodan.io'  
+  - 'challenges.cloudflare.com'
 ##ExcludesfromAntiAd  
   - 'gtms03.alicdn.com'
   - 'gtms04.alicdn.com'
