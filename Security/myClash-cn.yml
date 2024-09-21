@@ -6,3 +6,4 @@ payload:
 ##ExcludesfromAntiAd  
   - 'gtms03.alicdn.com'
   - 'gtms04.alicdn.com'
+  - '+.shaodan.io'
