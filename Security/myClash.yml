@@ -345,6 +345,9 @@ payload:
   - DOMAIN-SUFFIX,beizi.biz
   - DOMAIN-SUFFIX,mktm.jd.com
   - DOMAIN-SUFFIX,dm.bytedance.com  
+  - DOMAIN-SUFFIX,9liuda.com  
+  - DOMAIN-SUFFIX,9icaishi.com
+  - DOMAIN-SUFFIX,9icaishi.net
 ##domain-keyword
   - DOMAIN-KEYWORD,httpdns
   - DOMAIN-KEYWORD,adash
