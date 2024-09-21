@@ -3,7 +3,7 @@ payload:
   - '+.accuweather.com'
   - '+.seogroup.club'
   - 'miao.baidu.com'
+  - '+.shodan.io'  
 ##ExcludesfromAntiAd  
   - 'gtms03.alicdn.com'
   - 'gtms04.alicdn.com'
-  - '+.shaodan.io'
