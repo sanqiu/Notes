@@ -32,6 +32,8 @@ similarweb.com###TrialBanner
 ###articleAllsee
 ##.groom-read
 sohu.com###right-side-bar, .hot-article
+my.m.jd.com##.modal
+m.jd.com###jdRecommend,.hydrated
 
 !!Elements modifiers
 m.taobao.com#$#body {padding-top: 0 !important;}
