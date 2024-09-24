@@ -34,6 +34,7 @@ similarweb.com###TrialBanner
 sohu.com###right-side-bar, .hot-article
 my.m.jd.com##.modal
 m.jd.com###jdRecommend,.m_webcomponent_recommend,.exposView.hydrated
+youtube.com###dismissible
 
 !!Elements modifiers
 m.taobao.com#$#body {padding-top: 0 !important;}
