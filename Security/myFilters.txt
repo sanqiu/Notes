@@ -33,7 +33,7 @@ similarweb.com###TrialBanner
 ##.groom-read
 sohu.com###right-side-bar, .hot-article
 my.m.jd.com##.modal
-m.jd.com###jdRecommend,.m_webcomponent_recommend
+m.jd.com###jdRecommend,.m_webcomponent_recommend,.exposView.hydrated
 
 !!Elements modifiers
 m.taobao.com#$#body {padding-top: 0 !important;}
