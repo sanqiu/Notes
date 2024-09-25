@@ -262,8 +262,8 @@ payload:
   - DOMAIN,ark-handler-bottom.m.taobao.com
   - DOMAIN,cmgate.vip.qq.com
   - DOMAIN,dualstack-a.apilocate.amap.com
-  - DOMAIN,supl.platform.dbankcloud.cn
-  - DOMAIN,supl.bd-caict.com 
+#  - DOMAIN,supl.platform.dbankcloud.cn
+#  - DOMAIN,supl.bd-caict.com 
 #  - DOMAIN,hwpub-s01-drcn.cloud.dbankcloud.cn
   - DOMAIN-SUFFIX,firwinds.site
   - DOMAIN-SUFFIX,rayjump.com
