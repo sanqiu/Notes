@@ -291,7 +291,7 @@ payload:
   - DOMAIN,mk-group.cn-hangzhou.log.aliyuncs.com
   - DOMAIN,cua-group.cn-hangzhou.log.aliyuncs.com
   - DOMAIN,marketing-static.shouqianba.com
-  - DOMAIN,wosai-open.oss-cn-hangzhou.aliyuncs.com
+#  - DOMAIN,wosai-open.oss-cn-hangzhou.aliyuncs.com
   - DOMAIN,wxsnsdy.wxs.qq.com
   - DOMAIN,tracking.wosai.cn
   - DOMAIN,analysis.gboxlab.com
