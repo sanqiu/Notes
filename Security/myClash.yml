@@ -140,7 +140,7 @@ payload:
   - DOMAIN-SUFFIX,csj-sp.csjdeveloper.com  
   - DOMAIN-SUFFIX,reward-api.csjplatform.com  
   - DOMAIN-SUFFIX,sdk.e.qq.com  
-  - DOMAIN-SUFFIX,corssdk.map.qq.com  
+#  - DOMAIN-SUFFIX,corssdk.map.qq.com  
   - DOMAIN,httpdns.yunxindns.com
   - DOMAIN,resolver.dingtalk.com
 #  - DOMAIN,hwa.his.huawei.com
@@ -355,6 +355,7 @@ payload:
   - DOMAIN-KEYWORD,shoppingcampaigns
   - DOMAIN-KEYWORD,mamasearchad
   - DOMAIN-KEYWORD,jiaxiao
+  - DOMAIN-KEYWORD,log-api
 ##DNS
   - DOMAIN-SUFFIX,apidns.kwd.inkuai.com
   - DOMAIN-SUFFIX,dns.iqiyi.com
