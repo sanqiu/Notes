@@ -36,7 +36,6 @@ my.m.jd.com##.modal
 m.jd.com###jdLive
 !!m.jd.com###jdRecommend,.m_webcomponent_recommend
 qcc.com##.app-vip-modal,.modal-backdrop,.campaign-modal
-##.open-app-banner,.open-app
 ithome.com##.brand-column-item.brand-column-lapin
 
 !!Elements modifiers
