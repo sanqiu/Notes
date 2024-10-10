@@ -1,6 +1,8 @@
 payload:  
   - DOMAIN-SUFFIX,adobe.io
   - DOMAIN-SUFFIX,msn.cn
+  - DOMAIN,ntp.msn.com
+  - DOMAIN,browser.events.data.msn.com  
   - DOMAIN-SUFFIX,qinlinad.com
 #  - DOMAIN,achievement-drcn.things.hicloud.com
 #  - DOMAIN,achievement.dbankcloud.cn
