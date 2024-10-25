@@ -409,5 +409,5 @@ payload:
   - DOMAIN-SUFFIX,httpdns.zybang.com
   - DOMAIN-SUFFIX,httpdns1.cc.cdnhwc5.com
   - DOMAIN-SUFFIX,httpsdns.baidu.com
-  - DOMAIN-SUFFIX,lofter.httpdns.c.163.com
-  - DOMAIN-SUFFIX,music.httpdns.c.163.com
+  - DOMAIN-SUFFIX,httpdns.c.163.com
+  - DOMAIN-SUFFIX,smartborad.com
