@@ -1,5 +1,5 @@
 payload:  
-  - DOMAIN-SUFFIX,adobe.io
+#  - DOMAIN-SUFFIX,adobe.io
   - DOMAIN-SUFFIX,msn.cn
 #  - DOMAIN,ntp.msn.com
   - DOMAIN,browser.events.data.msn.com  
@@ -30,10 +30,6 @@ payload:
   - DOMAIN,browser.cloud.huawei.com.cn
 #  - DOMAIN,campaign-drcn.dbankcdn.cn
   - DOMAIN,campaign-drcn.music.dbankcloud.cn
-  - DOMAIN,ccpce-cn.consumer.huawei.com
-  - DOMAIN,ccpc-cn.consumer.huawei.com
-  - DOMAIN,ccpce-cn.consumer.huawei.cn
-  - DOMAIN,ccpc-cn.consumer.huawei.cn
 #  - DOMAIN,upfile7.hicloud.com
 #  - DOMAIN,contentcenter-drcn.dbankcdn.com
 #  - DOMAIN,contentcenter-drcn.dbankcdn.cn
@@ -50,17 +46,17 @@ payload:
 #  - DOMAIN,connect-drcn.dbankcloud.cn
 #  - DOMAIN,connect-dre.dbankcloud.cn
 #  - DOMAIN,connect-drru.dbankcloud.cn
-  - DOMAIN,connectivitycheck.cbg-app.huawei.com
-  - DOMAIN,connectivitycheck.cbg-app.huawei.com.cn
+#  - DOMAIN,connectivitycheck.cbg-app.huawei.com
+#  - DOMAIN,connectivitycheck.cbg-app.huawei.com.cn
 #  - DOMAIN,counter.kingsoft.com
 #  - DOMAIN,cs02-pps-drcn.dbankcdn.com
 #  - DOMAIN,cs02-pps-drcn.dbankcdn.com.cdn.dnsv1.com
 #  - DOMAIN,datacollector-drcn.dt.dbankcloud.cn
 #  - DOMAIN,datacollector-drcn.dt.hicloud.com
-  - DOMAIN,dnkeeper.dbankcloud.com
-  - DOMAIN,dnkeeper.hicloud.com
-  - DOMAIN,dnkeeper.platform.dbankcloud.cn
-  - DOMAIN,dnkeeper.platform.dbankcloud.com
+#  - DOMAIN,dnkeeper.dbankcloud.com
+#  - DOMAIN,dnkeeper.hicloud.com
+#  - DOMAIN,dnkeeper.platform.dbankcloud.cn
+#  - DOMAIN,dnkeeper.platform.dbankcloud.com
 #  - DOMAIN,store-drcn.hispace.dbankcloud.com
 #  - DOMAIN,store-drcn.hispace.dbankcloud.cn
 #  - DOMAIN,terms-drcn.platform.dbankcloud.cn
@@ -77,8 +73,8 @@ payload:
 #  - DOMAIN,events-drru.op.hicloud.com
 #  - DOMAIN,events.op.hicloud.com
   - DOMAIN,acd.op.hicloud.com
-  - DOMAIN,feeds-drcn.cloud.huawei.com.cn
-  - DOMAIN,feeds-drcn.dbankcdn.cn
+#  - DOMAIN,feeds-drcn.cloud.huawei.com.cn
+#  - DOMAIN,feeds-drcn.dbankcdn.cn
   - DOMAIN,gra.hicloud.com
 #  - DOMAIN,grs-dbankcloud-com-dre.appacc-region.dbankedge.net
 #  - DOMAIN,grs-dbankcloud-com-dre.appacc.dbankedge.net
@@ -146,13 +142,6 @@ payload:
   - DOMAIN,httpdns.yunxindns.com
   - DOMAIN,resolver.dingtalk.com
 #  - DOMAIN,hwa.his.huawei.com
-  - DOMAIN,logbak.hicloud.com
-  - DOMAIN,logservice.hicloud.com
-  - DOMAIN,logservice1.hicloud.com
-  - DOMAIN,logservice.dbankcoud.cn
-  - DOMAIN,logservice.dbankcoud.com
-  - DOMAIN,logservice1.dbankcoud.cn
-  - DOMAIN,logservice1.dbankcoud.com
   - DOMAIN,loggw-extiny.alipay.com
   - DOMAIN,loggw.alipay.com.cn
   - DOMAIN,loggw.alipaydns.com
@@ -411,3 +400,25 @@ payload:
   - DOMAIN-SUFFIX,httpsdns.baidu.com
   - DOMAIN-SUFFIX,httpdns.c.163.com
   - DOMAIN-SUFFIX,smartborad.com
+  ##Adobe
+- DOMAIN-SUFFIX,lmlicenses.wip4.adobe.com
+- DOMAIN-SUFFIX,lm.licenses.adobe.com
+- DOMAIN-SUFFIX,3dns-2.adobe.com
+- DOMAIN-SUFFIX,3dns-3.adobe.com
+- DOMAIN-SUFFIX,activate.adobe.com
+- DOMAIN-SUFFIX,activate-sea.adobe.com
+- DOMAIN-SUFFIX,activate-sjc0.adobe.com
+- DOMAIN-SUFFIX,adobe-dns.adobe.com
+- DOMAIN-SUFFIX,adobe-dns-2.adobe.com
+- DOMAIN-SUFFIX,adobe-dns-3.adobe.com
+- DOMAIN-SUFFIX,ereg.adobe.com
+- DOMAIN-SUFFIX,hl2rcv.adobe.com
+- DOMAIN-SUFFIX,practivate.adobe.com
+- DOMAIN-SUFFIX,wip3.adobe.com
+- DOMAIN-SUFFIX,activate.wip3.adobe.com
+- DOMAIN-SUFFIX,ereg.wip3.adobe.com
+- DOMAIN-SUFFIX,wwis-dubc1-vip60.adobe.com
+- DOMAIN-SUFFIX,genuine.adobe.com
+- DOMAIN-SUFFIX,assets.adobedtm.com
+- DOMAIN-SUFFIX,cc-api-data.adobe.io
+- DOMAIN-SUFFIX,ic.adobe.io
