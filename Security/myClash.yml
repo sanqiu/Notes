@@ -401,24 +401,24 @@ payload:
   - DOMAIN-SUFFIX,httpdns.c.163.com
   - DOMAIN-SUFFIX,smartborad.com
   ##Adobe
-- DOMAIN-SUFFIX,lmlicenses.wip4.adobe.com
-- DOMAIN-SUFFIX,lm.licenses.adobe.com
-- DOMAIN-SUFFIX,3dns-2.adobe.com
-- DOMAIN-SUFFIX,3dns-3.adobe.com
-- DOMAIN-SUFFIX,activate.adobe.com
-- DOMAIN-SUFFIX,activate-sea.adobe.com
-- DOMAIN-SUFFIX,activate-sjc0.adobe.com
-- DOMAIN-SUFFIX,adobe-dns.adobe.com
-- DOMAIN-SUFFIX,adobe-dns-2.adobe.com
-- DOMAIN-SUFFIX,adobe-dns-3.adobe.com
-- DOMAIN-SUFFIX,ereg.adobe.com
-- DOMAIN-SUFFIX,hl2rcv.adobe.com
-- DOMAIN-SUFFIX,practivate.adobe.com
-- DOMAIN-SUFFIX,wip3.adobe.com
-- DOMAIN-SUFFIX,activate.wip3.adobe.com
-- DOMAIN-SUFFIX,ereg.wip3.adobe.com
-- DOMAIN-SUFFIX,wwis-dubc1-vip60.adobe.com
-- DOMAIN-SUFFIX,genuine.adobe.com
-- DOMAIN-SUFFIX,assets.adobedtm.com
-- DOMAIN-SUFFIX,cc-api-data.adobe.io
-- DOMAIN-SUFFIX,ic.adobe.io
+  - DOMAIN-SUFFIX,lmlicenses.wip4.adobe.com
+  - DOMAIN-SUFFIX,lm.licenses.adobe.com
+  - DOMAIN-SUFFIX,3dns-2.adobe.com
+  - DOMAIN-SUFFIX,3dns-3.adobe.com
+  - DOMAIN-SUFFIX,activate.adobe.com
+  - DOMAIN-SUFFIX,activate-sea.adobe.com
+  - DOMAIN-SUFFIX,activate-sjc0.adobe.com
+  - DOMAIN-SUFFIX,adobe-dns.adobe.com
+  - DOMAIN-SUFFIX,adobe-dns-2.adobe.com
+  - DOMAIN-SUFFIX,adobe-dns-3.adobe.com
+  - DOMAIN-SUFFIX,ereg.adobe.com
+  - DOMAIN-SUFFIX,hl2rcv.adobe.com
+  - DOMAIN-SUFFIX,practivate.adobe.com
+  - DOMAIN-SUFFIX,wip3.adobe.com
+  - DOMAIN-SUFFIX,activate.wip3.adobe.com
+  - DOMAIN-SUFFIX,ereg.wip3.adobe.com
+  - DOMAIN-SUFFIX,wwis-dubc1-vip60.adobe.com
+  - DOMAIN-SUFFIX,genuine.adobe.com
+  - DOMAIN-SUFFIX,assets.adobedtm.com
+  - DOMAIN-SUFFIX,cc-api-data.adobe.io
+  - DOMAIN-SUFFIX,ic.adobe.io
