@@ -213,7 +213,7 @@ payload:
   - DOMAIN,mum.hzchengdun.com
 #  - DOMAIN,report.dingtalk.com
 #  - DOMAIN-SUFFIX,log.aliyuncs.com
-  - DOMAIN-SUFFIX,log.mmstat.com
+#  - DOMAIN-SUFFIX,log.mmstat.com
   - DOMAIN-SUFFIX,alimmdn.com
   - DOMAIN-SUFFIX,tanx.com
   - DOMAIN,mk-group.cn-hangzhou.log.aliyuncs.com
