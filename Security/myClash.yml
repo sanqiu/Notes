@@ -291,7 +291,7 @@ payload:
   - DOMAIN,log.weixin.qq.com
   - DOMAIN,log.wechatpay.cn
   - DOMAIN-SUFFIX,dreport.meituan.net
-  - DOMAIN-SUFFIX,s-gm.mmstat.com
+#  - DOMAIN-SUFFIX,s-gm.mmstat.com
   - DOMAIN-SUFFIX,api-unionid.meituan.com
 #  - DOMAIN-SUFFIX,appsec-mobile.meituan.com
   - DOMAIN-SUFFIX,analytics.map.qq.com
