@@ -422,3 +422,9 @@ payload:
   - DOMAIN-SUFFIX,assets.adobedtm.com
   - DOMAIN-SUFFIX,cc-api-data.adobe.io
   - DOMAIN-SUFFIX,ic.adobe.io
+  - DOMAIN-SUFFIX,auth.services.adobe.com
+  - DOMAIN-SUFFIX,7m31guub0q.adobe.io
+  - DOMAIN-SUFFIX,cai-splunk-proxy.adobe.io
+  - DOMAIN-SUFFIX,adobeid-na1.services.adobe.com
+  - DOMAIN-SUFFIX,geo2.adobe.com
+  - DOMAIN-SUFFIX,cai-splunk-proxy.adobe.io
